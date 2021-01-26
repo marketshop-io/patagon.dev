@@ -1,0 +1,18 @@
+{%- assign m = site.data.matrix -%}
+<div class="cards_grid">
+<img src="{{m.feature_image}}" alt="featured image">
+  {%- for c in m.cards -%}
+    <div class="matrix_card">
+      <h2>{{c.title}}</h2>
+      <p>{{c.text}}</p>
+      <a href="{{c.link}}" class="button cta">{{c.headline}}</a>
+    </div>
+  {%- endfor -%}
+</div>
+<div class="tables">
+  {%- for t in m.matrix -%}
+  <div class="matrix_title">
+    <h2>{{t.title}}</h2>
+  </div>
+  {%- endfor -%}
+</div>

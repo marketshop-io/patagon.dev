@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  color: #18214d;
+  letter-spacing: -0.5px;
+  -webkit-font-smoothing: antialiased;
+  cursor: default;
+  main {
+    margin-top: 90px;
+    height: max-content;
+  }
+  footer {
+    .icon {
+      width: 24px;
+      display: flex;
+    }
+  }
+}
+
+.container {
+  width: 98%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 5%;
+}

@@ -1,0 +1,111 @@
+<head>
+  <!-- Required meta tags -->
+  {%- if site.google_id -%}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_id}}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{site.google_id}}');
+  </script>
+  {%- endif -%}
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="generator" content="{{site.generator}}" />
+  <title>{{page.title}} | {{site.title}}</title>
+  {%- if page.author -%}
+  {%- assign author = page.author -%}
+  {%- else -%}
+  {%- assign author = site.author -%}
+  {%- endif -%}
+  {%- if page.language -%}
+  {%- assign lang = page.language -%}
+  {%- elsif site.language -%}
+  {%- assign lang = site.language -%}
+  {%- else -%}
+  {%- assign lang = "en_US" -%}
+  {%- endif -%}
+  {%- if page.description -%}
+  {%- assign descr = page.description -%}
+  {%- else -%}
+  {%- assign descr = site.description -%}
+  {%- endif -%}
+  <meta name="description" content="{{descr}}" />
+  {%- if page.published_time -%}
+  <meta property="article:published_time" content="{{page.published_time}}" />
+  {%- endif -%}
+  {%- if page.modified_time -%}
+  <meta property="article:modified_time" content="page.{{modified_time}}" />
+  {%- endif -%}
+  <meta name="author" content="{{author}}" />
+  <meta property="og:title" content="{{page.title}} | {{site.title}}" />
+  <meta property="og:locale" content="{{lang}}" />
+  <meta property="og:description" content="{{descr}}" />
+  <meta property="og:url" content="{{page.url | absolute_url}}" />
+  <meta property="og:site_name" content="{{site.name}}" />
+  <meta property="og:section" content="Cloud Computing" />
+  {%- if page.tags -%}
+  <meta property="og:tag" content="{{page.tags}}" />
+  {%- endif -%}
+
+  <meta name="twitter:creator" content="{{author}}">
+  <meta http-equiv="content-language" content="en" />
+  <meta name="twitter:title" content="{{page.title}} | {{site.title}}">
+  {%- if page.description -%}
+  <meta name="twitter:description" content="{{page.description}}">
+  <meta name="twitter:card" content="summary_large_image">
+  {%- endif -%}
+  {%- if page.image -%}
+  {%- if page.image.path -%}
+  <meta property="og:image" content="{{site.url}}{{page.image.path}}" />
+  <meta name="twitter:image" content="{{site.url}}{{page.image.path}}">
+  {%- else -%}
+  <meta name="twitter:image" content="{{site.url}}{{page.image}}">
+  <meta property="og:image" content="{{site.url}}{{page.image}}" />
+  {%- endif -%}
+  {%- endif -%}
+
+  <!-- application/ld+json -->
+
+  <script type="application/ld+json">
+        {"@type":"WebSite",
+        "url":"{{site.url}}",
+        {%- if page.image -%}
+        "image":{
+            "alt":"og-image",
+        {%- if page.image.path -%}
+        "url":"{{site.url}}{{page.image.path}}",
+        {%- else -%}
+        "url":"{{site.url}}{{page.image}}",
+        {%- endif -%}
+        {%- if page.image.height  -%}
+            "height":"{{page.image.height}}",
+        {%- endif -%}
+        {%- if page.image.width  -%}
+            "height":"{{page.image.width}}",
+        {%- endif -%}
+        {%- endif -%}
+        "@type":"imageObject"},
+        "author":{
+        "@type":"Person",
+        "name":"{{author}}"},
+        "description":"{{descr}}",
+        "name":"{{site.title}}","headline":"{{page.title}}","@context":"https://schema.org"}</script>
+
+  <!-- <link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon" /> -->
+
+  <!-- <script src="https://kit.fontawesome.com/945a7dd071.js" crossorigin="anonymous"></script> -->
+
+  <link rel="stylesheet" href="{{ " /assets/main.css" | prepend: site.baseurl }}">
+  {%- if page.type == "main" -%}
+  <link rel="canonical" href="{{ site.url }}/">
+  {%- else -%}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {%- endif -%}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend: site.url
+    }}" />
+</head>

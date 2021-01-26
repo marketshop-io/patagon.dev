@@ -1,0 +1,22 @@
+feature_image: "/assets/images/matrix.svg"
+cards:
+  - title: Studio
+    text : Mercado Stack as web app
+    button: Start building now
+    link: "#"
+    headline: Start Now
+  - title: Studio
+    text : Mercado Stack as web app
+    button: Start building now
+    link: "#"
+    headline: Get Free
+matrix:
+  - title: Summary
+    key: "001"
+  - title: Basics
+    key: "002"
+  - title: Logic
+    key: "003"
+  - title: Logic - Branch conditions
+    key: "004"
+

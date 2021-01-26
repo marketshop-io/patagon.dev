@@ -1,0 +1,14 @@
+<header id="header" class="page_header">
+    <div class="container">
+        <a href="/" class="logo">
+            <img src="/assets/images/logo.png" alt="site logo">
+        </a>
+        <nav>
+            <ul>
+                {%- for i in site.data.navigation -%}
+                    <li><a href="{{i.link}}">{{i.title}}</a></li>
+                {%- endfor -%}
+            </ul>
+        </nav>
+    </div>
+</header>

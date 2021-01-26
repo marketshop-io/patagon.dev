@@ -1,0 +1,154 @@
+section.features-intro .shape-before::before {
+  content: "";
+  background-color: #feca2f;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.16;
+  transform: rotate(45deg);
+  width: 64px;
+  height: 64px;
+  top: -3%;
+  right: 5%;
+  bottom: auto;
+  left: auto;
+}
+.cards_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  img {
+    align-self: end;
+  }
+}
+@media (min-width: 768px) {
+  .shape-before::before {
+    width: 64px;
+    height: 64px;
+    top: -15%;
+    right: 15%;
+    bottom: auto;
+    left: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro {
+    width: 75%;
+    h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 100px;
+      letter-spacing: -5px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .intro {
+    width: 66%;
+    padding-top: 90px;
+    h1 {
+      font-size: 120px;
+      font-weight: 800;
+    }
+    p {
+      font-size: 28px;
+      padding-bottom: 144px;
+    }
+  }
+  section.features-intro .shape-before:before {
+    width: 128px;
+    height: 128px;
+    top: -20%;
+    right: 15%;
+    bottom: auto;
+    left: auto;
+  }
+}
+.matrix_card {
+  padding: 32px;
+  margin-bottom: 60px;
+  text-align: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+
+  &:nth-child(even) {
+    background: #18214d;
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #ddd;
+    }
+  }
+  &:nth-child(odd) {
+    background: #f0f1f5;
+    h2 {
+      color: #18214d;
+    }
+    p {
+      color: #777;
+    }
+  }
+  h2 {
+    display: block;
+    font-size: 36px;
+    letter-spacing: -2px;
+    line-height: 1.2em;
+    font-weight: 700;
+  }
+  p {
+    font-size: 12px;
+  }
+  .button {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 13px 8px;
+    margin: 40px 0 0;
+    color: #eee;
+    background: $buttons_color;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .matrix_card {
+    padding: 32px;
+    margin-bottom: 60px;
+
+    h2 {
+      display: block;
+      font-size: 64px;
+      letter-spacing: -2px;
+      line-height: 1.2em;
+      font-weight: 700;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .button {
+      display: block;
+      width: 100%;
+      font-size: 20px;
+      padding: 13px 8px;
+      margin: 40px 0 0;
+    }
+  }
+}
+.matrix_title {
+  background-color: #eff2f6;
+  border-radius: 4px;
+  padding: 14px 0.75rem 12px 0.75rem;
+  padding-top: 18px;
+    padding-bottom: 16px;
+  h2 {
+    font-size: 30px;
+  }
+}
