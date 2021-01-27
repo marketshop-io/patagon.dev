@@ -10,6 +10,11 @@ cards:
     button: Start building now
     link: "#"
     headline: Get Free
+cta:
+  - title: Start building for free
+    link: "#"
+  - title: 	Get WordPress plugin
+    link: "#"
 matrix:
   - title: Summary
     key: "001"

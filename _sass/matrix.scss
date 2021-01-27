@@ -147,8 +147,61 @@ section.features-intro .shape-before::before {
   border-radius: 4px;
   padding: 14px 0.75rem 12px 0.75rem;
   padding-top: 18px;
-    padding-bottom: 16px;
+  padding-bottom: 16px;
   h2 {
     font-size: 30px;
   }
+}
+.matrix_table {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.75rem;
+  .matrix_cta {
+    color: #18214d;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+}
+.cta {
+  text-align: center;
+  padding-top: 204px;
+  padding-bottom: 192px;
+  small {
+    display: block;
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 28px;
+    color: #fa3a69;
+    line-height: 1em;
+    transform: rotate(-3deg);
+    padding-bottom: 16px;
+  }
+  h2 {
+    font-size: 80px;
+    letter-spacing: -3px;
+    line-height: 1em;
+    padding-bottom: 64px;
+    padding-top: 30px;
+    span {
+      color: #8f68fb;
+    }
+  }
+}
+.button {
+  display: inline-block;
+  padding: 13px 21px;
+  background-color: #8f68fb;
+  border: 2px solid #8f68fb;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none !important;
+  outline: none !important;
+  transition: background-color 0.2s ease-out;
+  text-align: center;
+  cursor: pointer;
 }
