@@ -1,0 +1,26 @@
+title: Typeform  ⚔️  Tripetto
+description: A quick comparison of the free plans of Typeform and Tripetto.
+table_head1: "Typeform<span>Free plan</span>"
+table_head2: >
+  <img src="/assets/images/logo.png" alt="Logo">Tripetto<span>Free plan</span>
+table:
+  - name: Create conversational forms
+    val1: "Yes"
+    val2: "Yes"
+  - name: Share forms with a link
+    val1: "Yes"
+    val2: "Yes"
+  - name: Embed forms in website
+    val1: "Yes"
+    val2: "Yes"
+  - name: Number of forms
+    val1: "Only 3 max"
+    val2: "Unlimited"
+  - name: Number of questions per form
+    val1: "Only 10 max"
+    val2: "Unlimited"
+links:
+  - name: Take the product tour 
+    link: "#"
+  - name: See example forms 
+    link: "#"

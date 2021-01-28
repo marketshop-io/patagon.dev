@@ -32,3 +32,52 @@
     padding-bottom: 104px;
   }
 }
+.comparsion {
+  padding-top: 52px;
+  padding-bottom: 104px;
+  h2 {
+    font-size: 48px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    line-height: 1em;
+  }
+  .description {
+    font-size: 24px;
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+  .head {
+    font-weight: 800;
+    span {
+      display: block;
+      font-size: 80%;
+      font-weight: normal;
+    }
+    img {
+      height: 32px;
+    }
+    &::before {
+      content: "";
+    }
+  }
+  .comparsion_table {
+    background-color: #eff2f6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 1px;
+    padding: 32px 16px;
+    border-radius: 8px;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 1.3em;
+    margin-bottom: 24px;
+    .header {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      padding: 20px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      padding: 20px;
+    }
+  }
+}

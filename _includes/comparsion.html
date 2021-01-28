@@ -1,0 +1,19 @@
+{%- assign c = site.data.comparsion -%}
+<section class="comparsion">
+  <h2>{{c.title}}</h2>
+  <p class="description">{{c.description}}</p>
+  <div class="comparsion_table">
+    <div class="header">
+      <div></div>
+      <div class="head">{{c.table_head1}}</div>
+      <div class="head">{{c.table_head2}}</div>
+    </div>
+    {%- for t in c.table -%}
+    <div class="row">
+      <div class="name">{{t.name}}</div>
+      <div class="val">{{t.val1}}</div>
+      <div class="val">{{t.val2}}</div>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
