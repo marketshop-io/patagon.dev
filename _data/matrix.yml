@@ -17,11 +17,11 @@ cta:
     link: "#"
 matrix:
   - title: Summary
-    key: "001"
+    table: "01"
   - title: Basics
-    key: "002"
+    table: "02"
   - title: Logic
-    key: "003"
+    table: "03"
   - title: Logic - Branch conditions
-    key: "004"
+    table: "04"
 

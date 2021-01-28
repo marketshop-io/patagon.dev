@@ -1,7 +1,8 @@
 .footer_grid {
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
+  border-top: 1px solid #ddd;
   * {
     color: #18214d;
   }
@@ -9,18 +10,78 @@
     width: 50px;
   }
   h6 {
-        padding-top: 14px;
-        font-size: 16px;
+    padding-top: 14px;
+    font-size: 16px;
     font-weight: 700;
   }
   li {
     list-style-type: none;
   }
   a {
-        display: inline-block;
+    display: inline-block;
     white-space: nowrap;
     padding: 6px 0;
     font-size: 15px;
     font-weight: 500;
+  }
+}
+.subscribe {
+  text-align: center;
+  padding: 88px 15px 0;
+  span {
+    display: block;
+    color: grey;
+    padding-top: 10px;
+    a {
+      text-decoration: underline;
+      color: darkblue;
+    }
+  }
+}
+.button_wide {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.form_input {
+  width: auto;
+  min-width: 400px;
+  flex-grow: 1;
+  margin-bottom: 0;
+  margin-right: 16px;
+  background-color: #eff2f6;
+  border: 1px solid #eff2f6;
+  border-radius: 8px;
+  color: #18214d !important;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.55px;
+  height: 54px;
+  outline: none !important;
+  padding-left: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: box-shadow 0.2s ease-out;
+}
+.footer_socials {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  padding: 64px 15px;
+  img {
+    width: 32px;
+  }
+}
+.footer_bottom {
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 30px;
+  .motto {
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fa3a69;
   }
 }

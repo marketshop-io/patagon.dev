@@ -16,9 +16,11 @@
     </div>
     <div class="matrix_table">
           {%- for cell in site.matrix -%}
-          <div class="matrix_cell">
-          {{cell | markdownify}}
-          </div>
+          {%- if t.table == cell.table -%}
+            <div class="matrix_cell">
+            {{cell | markdownify}}
+            </div>
+          {%- endif -%}
           {%- endfor -%}
           <div></div>
           <a href="{{m.cta[0].link}}" class="matrix_cta">{{m.cta[0].title}} →</a>

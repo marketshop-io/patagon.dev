@@ -103,18 +103,19 @@ section.features-intro .shape-before::before {
     font-size: 12px;
   }
   .button {
-    display: block;
-    width: 100%;
-    font-size: 20px;
-    padding: 13px 8px;
-    margin: 40px 0 0;
-    color: #eee;
-    background: $buttons_color;
+    display: inline-block;
+    padding: 13px 21px;
+    background-color: #8f68fb;
+    border: 2px solid #8f68fb;
     border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none!important;
+    outline: none!important;
+    transition: background-color .2s ease-out;
+    text-align: center;
+    cursor: pointer;
   }
 }
 @media (min-width: 1200px) {

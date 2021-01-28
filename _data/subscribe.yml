@@ -1,0 +1,6 @@
+action     : "#"
+method     : post
+placeholder: Type your email for updates
+target     : _blank
+label      : Email address to subscribe
+unsubscribe: "#"

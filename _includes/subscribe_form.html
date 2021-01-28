@@ -1,0 +1,10 @@
+{%- assign s = site.data.subscribe -%}
+<div class="subscribe">
+    <form action="{{s.action}}"
+      method="{{s.method}}" target="{{s.target}}" class="form-inline"> 
+      <input type="email" name="EMAIL" class="form_input" id="EMAIL"
+        placeholder="{{s.placeholder}}">
+      <button type="submit" class="button button_wide">Subscribe</button>
+    </form> 
+    <span>Unsubscribe <a href="{{s.unsubscribe}}">here</a>.</span>
+</div>
