@@ -23,6 +23,7 @@
   gap: 20px;
   figure {
     display: block;
+    opacity: 0;
     align-self: end;
     &::before {
       content: "";
@@ -56,6 +57,14 @@
   left: auto;
   transform: rotate(45deg);
 }
+.intro p {
+  padding-bottom: 134px;
+}
+@media (min-width: 600px) {
+    .cards_grid figure {
+    opacity: 1;
+    }
+  }
 @media (min-width: 768px) {
   .shape-before::before {
     width: 64px;
