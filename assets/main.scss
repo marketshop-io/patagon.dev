@@ -1,5 +1,6 @@
 ---
 ---
+
 $baseurl: "{{site.baseurl}}";
 @import "_reset";
 @import "variables";
@@ -8,5 +9,28 @@ $baseurl: "{{site.baseurl}}";
 @import "header";
 @import "matrix";
 @import "footer";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+
+.matrix_card-2::before {
+  position: absolute;
+  content: "{{site.data.matrix.tip}}";
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 30px;
+    width: 218px;
+    height: 90px;
+    top: -108px;
+    right: 20px;
+    color: #fa3a69;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: .8em;
+    transform: rotate(5deg);
+    position: absolute;
+    background-image: url(../assets/images/curve.svg);
+    background-size: 56px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-right: 8px;
+}

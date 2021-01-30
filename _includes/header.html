@@ -3,12 +3,13 @@
         <a href="/" class="logo">
             <img src="/assets/images/logo.png" alt="site logo">
         </a>
-        <nav>
+        <nav id="nav_top" class="hidden_small">
             <ul>
                 {%- for i in site.data.navigation -%}
-                    <li><a href="{{i.link}}">{{i.title}}</a></li>
+                <li><a href="{{i.link}}">{{i.title}}</a></li>
                 {%- endfor -%}
             </ul>
         </nav>
+        {%- include hamburger.html -%}
     </div>
 </header>

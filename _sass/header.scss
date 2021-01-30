@@ -1,6 +1,7 @@
 .page_header {
   position: fixed;
   width: 100%;
+  height: fit-content;
   top: 0;
   right: 0;
   bottom: 0;
@@ -8,15 +9,11 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.94);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
   z-index: 998;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.94);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px 2px;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-
   .logo img {
     height: 50px;
   }
@@ -26,12 +23,13 @@ nav ul {
   li {
     padding: 0 5px;
     a {
-      padding: 13px 10px;
-      font-size: 16px;
+      display: block;
       color: #18214d;
+      font-size: 24px;
       font-weight: 500;
       letter-spacing: -0.4px;
-      text-decoration: none;
+      padding: 13px 0;
+      border-bottom: 1px solid #bbb;
     }
   }
 }
@@ -48,5 +46,77 @@ nav ul {
   nav ul {
     display: flex;
     justify-content: space-around;
+    li a {
+      border-bottom: none;
+      font-size: 16px;
+    }
+  }
+}
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  display: inline-block;
+  transition-property: opacity, filter;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 4px;
+  .hamburger-box {
+    width: 20px;
+    height: 14px;
+    display: inline-block;
+    position: relative;
+  }
+}
+.hamburger .hamburger-inner {
+  display: block;
+  top: 1px;
+  margin-top: -1px;
+}
+.hamburger .hamburger-inner,
+.hamburger .hamburger-inner::before,
+.hamburger .hamburger-inner::after {
+  width: 20px;
+  height: 2px;
+  background-color: #18214d;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.hamburger .hamburger-inner::before,
+.hamburger .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+.hamburger .hamburger-inner::before {
+  top: 6px;
+  transition-property: transform, opacity;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+}
+.hamburger .hamburger-inner::after {
+  top: 12px;
+}
+.hamburger.opened .hamburger-inner::before {
+  transform: rotate(-45deg) translate3d(-2.8571428571px, -4px, 0);
+  opacity: 0;
+}
+.hamburger.opened .hamburger-inner::after {
+  transform: translate3d(0, -12px, 0) rotate(-90deg);
+}
+.hamburger.opened .hamburger-inner {
+  transform: translate3d(0, 6px, 0) rotate(45deg);
+}
+@media (max-width: 1023px) {
+  .hidden_small {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .hamburger {
+    display: none;
   }
 }

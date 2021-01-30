@@ -1,0 +1,15 @@
+<div class="hamburger opened" id="hamburger" role="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner">
+    </span>
+  </span>
+</div>
+
+<script>
+  const toggler = document.getElementById("hamburger");
+  const nav = document.getElementById("nav_top");
+  hamburger.onclick = () => {
+    toggler.classList.toggle("opened")
+    nav.classList.toggle("hidden_small")
+  };
+</script>

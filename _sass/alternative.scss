@@ -81,3 +81,14 @@
     }
   }
 }
+.alternative_intro::before {
+  content: "";
+  display: block;
+  position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 0;
+    right: 10%;
+    bottom: auto;
+    left: auto;
+}

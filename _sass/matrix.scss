@@ -1,4 +1,8 @@
-section.features-intro .shape-before::before {
+.features-intro {
+  position: relative;
+}
+.shape-before::before {
+  display: block;
   content: "";
   background-color: #feca2f;
   position: absolute;
@@ -13,12 +17,44 @@ section.features-intro .shape-before::before {
   left: auto;
 }
 .cards_grid {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  img {
+  figure {
+    display: block;
     align-self: end;
+    &::before {
+      content: "";
+      display: block;
+      width: 48px;
+      height: 48px;
+      top: 10%;
+      right: auto;
+      bottom: auto;
+      left: 14%;
+      background-color: #189dfb;
+      position: absolute;
+      z-index: -1;
+      opacity: 0.16;
+      border-radius: 50%;
+    }
   }
+}
+.shape-before::before {
+  display: block;
+  content: "";
+  background-color: #feca2f;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.16;
+  width: 64px;
+  height: 64px;
+  top: -3%;
+  right: 5%;
+  bottom: auto;
+  left: auto;
+  transform: rotate(45deg);
 }
 @media (min-width: 768px) {
   .shape-before::before {
@@ -55,11 +91,11 @@ section.features-intro .shape-before::before {
       padding-bottom: 144px;
     }
   }
-  section.features-intro .shape-before:before {
+  .shape-before::before {
     width: 128px;
     height: 128px;
-    top: -20%;
-    right: 15%;
+    top: 10%;
+    right: 10%;
     bottom: auto;
     left: auto;
   }
@@ -111,13 +147,14 @@ section.features-intro .shape-before::before {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    text-decoration: none!important;
-    outline: none!important;
-    transition: background-color .2s ease-out;
+    text-decoration: none !important;
+    outline: none !important;
+    transition: background-color 0.2s ease-out;
     text-align: center;
     cursor: pointer;
   }
 }
+
 @media (min-width: 1200px) {
   .matrix_card {
     padding: 32px;
@@ -181,11 +218,16 @@ section.features-intro .shape-before::before {
     padding-bottom: 16px;
   }
   h2 {
-    font-size: 80px;
+    font-size: 60px;
     letter-spacing: -3px;
     line-height: 1em;
     padding-bottom: 64px;
     padding-top: 30px;
+    @media (min-width: 1024px) {
+      & {
+        font-size: 80px;
+      }
+    }
     span {
       color: #8f68fb;
     }
