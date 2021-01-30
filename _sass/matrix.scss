@@ -1,5 +1,9 @@
 .features-intro {
   position: relative;
+  margin-bottom: 10px;
+  @media (min-width: 600px) {
+    margin-bottom: 110px;
+  }
 }
 .shape-before::before {
   display: block;
@@ -17,13 +21,22 @@
   left: auto;
 }
 .cards_grid {
+  margin-bottom: 60px;
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  @media (min-width: 600px) {
+    & {
+      grid-template-columns: repeat(3, 1fr);
+      margin-bottom: 0;
+      figure {
+        opacity: 1;
+      }
+    }
+  }
   figure {
     display: block;
-    opacity: 0;
+    opacity: 1;
     align-self: end;
     &::before {
       content: "";
@@ -57,14 +70,14 @@
   left: auto;
   transform: rotate(45deg);
 }
-.intro p {
-  padding-bottom: 134px;
-}
-@media (min-width: 600px) {
-    .cards_grid figure {
-    opacity: 1;
-    }
+.intro {
+  h1 {
+    font-size: 60px;
   }
+  p {
+    padding-bottom: 24px;
+  }
+}
 @media (min-width: 768px) {
   .shape-before::before {
     width: 64px;
@@ -97,7 +110,6 @@
     }
     p {
       font-size: 28px;
-      padding-bottom: 144px;
     }
   }
   .shape-before::before {
@@ -111,7 +123,7 @@
 }
 .matrix_card {
   padding: 32px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   text-align: center;
   border-radius: 12px;
   -webkit-border-radius: 12px;
@@ -215,8 +227,8 @@
 }
 .cta {
   text-align: center;
-  padding-top: 204px;
-  padding-bottom: 192px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   small {
     display: block;
     font-family: "Hachi Maru Pop", cursive;
@@ -256,4 +268,9 @@
   transition: background-color 0.2s ease-out;
   text-align: center;
   cursor: pointer;
+}
+.tables {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
 }

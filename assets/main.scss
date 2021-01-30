@@ -33,4 +33,8 @@ $baseurl: "{{site.baseurl}}";
     background-repeat: no-repeat;
     background-position: bottom right;
     padding-right: 8px;
+    display: none;
+    @media (min-width: 600px) {
+      display: block;
+    }
 }
