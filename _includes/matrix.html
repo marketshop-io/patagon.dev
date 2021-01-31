@@ -9,10 +9,14 @@
   </div>
   {%- endfor -%}
 </div>
-<div class="tables">
+<div class="tables" id="tables">
   {%- for t in m.matrix -%}
   <div class="matrix_title">
     <h2>{{t.title}}</h2>
+    <p class="buttons">
+      <span class="btn btn_left" onclick="buttonClick(window.screen.width/2)"><</span>
+      <span class="btn btn_right" onclick="buttonClick(0)">></span>
+    </p>
   </div>
   <div class="matrix_grid">
     {%- for cell in site.matrix -%}
@@ -29,3 +33,9 @@
 
   {%- endfor -%}
 </div>
+<script>
+  const tables = document.getElementById("tables");
+    buttonClick = (dir) => {
+      tables.scrollTo(dir, 0);
+    }
+</script>

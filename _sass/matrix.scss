@@ -233,6 +233,9 @@
   }
   .matrix_cell {
     padding: 10px;
+    ul li {
+      margin-left: 20px;
+    }
   }
   .matrix_cta {
     color: #18214d;
@@ -296,13 +299,35 @@
 .matrix_title {
   position: sticky;
   left: 0;
+  display: grid;
+  grid-template-columns: 70% 90px;
+  align-items: center;
 }
-/* .matrix_cell:nth-child(3n-1) {
+.buttons {
+  display: flex;
+  position: relative;
+  width: 85px;
+  justify-content: space-around;
+  .btn {
+    &:hover {
+      cursor: pointer;
+    }
+    align-self: center;
+    height: 40px;
+    display: block;
+    font-size: 24px;
+    padding: 2px 12px;
+    background: #ddd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  @media (min-width: 600px) {
+    & {
+        display: none;
+    }
+  }
+}
 
-} */
-.matrix_cell:nth-child(3n) {
- // background: green;
-}
 .matrix_cell:nth-child(3n + 1) {
   position: sticky;
   left: 0;
