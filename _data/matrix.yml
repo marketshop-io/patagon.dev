@@ -21,8 +21,8 @@ matrix:
     table: "01"
   - title: Basics
     table: "02"
-  - title: Logic
+  - title: Question Blocks
     table: "03"
-  - title: Logic - Branch conditions
+  - title: Logic
     table: "04"
 
