@@ -1,31 +1,31 @@
 {%- assign m = site.data.matrix -%}
 <div class="cards_grid">
-<figure><img src="{{m.feature_image}}" alt="featured image"></figure>
+  <figure><img src="{{m.feature_image}}" alt="featured image"></figure>
   {%- for c in m.cards -%}
-    <div class="matrix_card matrix_card-{{forloop.index}}">
-      <h2>{{c.title}}</h2>
-      <p>{{c.text}}</p>
-      <a href="{{c.link}}" class="button cta">{{c.headline}}</a>
-    </div>
+  <div class="matrix_card matrix_card-{{forloop.index}}">
+    <h2>{{c.title}}</h2>
+    <p>{{c.text}}</p>
+    <a href="{{c.link}}" class="button cta">{{c.headline}}</a>
+  </div>
   {%- endfor -%}
 </div>
 <div class="tables">
   {%- for t in m.matrix -%}
   <div class="matrix_title">
     <h2>{{t.title}}</h2>
+  </div>
+  <div class="matrix_grid">
+    {%- for cell in site.matrix -%}
+    {%- if t.table == cell.table -%}
+    <div class="matrix_cell">
+      {{cell | markdownify}}
     </div>
-    <div class="matrix_table">
-          {%- for cell in site.matrix -%}
-          {%- if t.table == cell.table -%}
-            <div class="matrix_cell">
-            {{cell | markdownify}}
-            </div>
-          {%- endif -%}
-          {%- endfor -%}
-          <div></div>
-          <a href="{{m.cta[0].link}}" class="matrix_cta">{{m.cta[0].title}} →</a>
-          <a href="{{m.cta[1].link}}" class="matrix_cta">{{m.cta[1].title}} →</a>
-    </div>
-
+    {%- endif -%}
     {%- endfor -%}
+    <div></div>
+    <a href="{{m.cta[0].link}}" class="matrix_cta">{{m.cta[0].title}} →</a>
+    <a href="{{m.cta[1].link}}" class="matrix_cta">{{m.cta[1].title}} →</a>
+  </div>
+
+  {%- endfor -%}
 </div>

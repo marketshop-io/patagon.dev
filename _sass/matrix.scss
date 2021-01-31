@@ -23,6 +23,7 @@
 .cards_grid {
   margin-bottom: 60px;
   position: relative;
+  padding: 0.75rem;
   display: grid;
   gap: 20px;
   @media (min-width: 600px) {
@@ -31,6 +32,13 @@
       margin-bottom: 0;
       figure {
         opacity: 1;
+        img {
+          transform: translateY(25px);
+          -webkit-transform: translateY(25px);
+          -moz-transform: translateY(25px);
+          -ms-transform: translateY(25px);
+          -o-transform: translateY(25px);
+        }
       }
     }
   }
@@ -202,6 +210,7 @@
   }
 }
 .matrix_title {
+  grid-column: 1/4;
   background-color: #eff2f6;
   border-radius: 4px;
   padding: 14px 0.75rem 12px 0.75rem;
@@ -209,13 +218,22 @@
   padding-bottom: 16px;
   h2 {
     font-size: 30px;
+    padding: 12px;
   }
 }
-.matrix_table {
+.matrix_grid {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0.75rem;
+  //gap: 20px;
+  grid-template-columns: repeat(3, 47.8vw);
+  padding: 0.75rem 0;
+  @media (min-width: 600px) {
+    & {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .matrix_cell {
+    padding: 10px;
+  }
   .matrix_cta {
     color: #18214d;
     font-weight: 700;
@@ -270,7 +288,23 @@
   cursor: pointer;
 }
 .tables {
+  position: relative;
   display: block;
   width: 100%;
   overflow-x: auto;
+}
+.matrix_title {
+  position: sticky;
+  left: 0;
+}
+/* .matrix_cell:nth-child(3n-1) {
+
+} */
+.matrix_cell:nth-child(3n) {
+ // background: green;
+}
+.matrix_cell:nth-child(3n + 1) {
+  position: sticky;
+  left: 0;
+  background: #fff;
 }
