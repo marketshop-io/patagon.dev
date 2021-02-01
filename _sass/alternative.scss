@@ -23,7 +23,7 @@
 @media (min-width: 768px) {
   .alternative_intro {
     * {
-      max-width: 76%; 
+      max-width: 76%;
     }
     h1 {
       font-size: 64px;
@@ -54,7 +54,7 @@
     padding-bottom: 48px;
   }
   .head {
-    font-weight: 800;
+    font-weight: 700;
     span {
       display: block;
       font-size: 80%;
@@ -83,11 +83,20 @@
     }
     .row {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 5px;
       padding: 20px 5px;
+      .name {
+        grid-column: 1/3;
+      }
       @media (min-width: 768px) {
-        padding: 20px;
+        & {
+          grid-template-columns: 2fr 1fr 1fr;
+          padding: 20px;
+          .name {
+            grid-column: 1/2;
+          }
+        }
       }
     }
   }
@@ -96,18 +105,18 @@
   content: "";
   display: block;
   position: absolute;
-    width: 120px;
-    height: 120px;
-    top: 0;
-    right: 10%;
-    bottom: auto;
-    left: auto;
-  }
-  .alternative_intro::before {
+  width: 120px;
+  height: 120px;
+  top: 0;
+  right: 10%;
+  bottom: auto;
+  left: auto;
+}
+.alternative_intro::before {
   content: "";
   background-color: #30ca89;
   z-index: -1;
-  opacity: .16;
+  opacity: 0.16;
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -117,18 +126,101 @@
   left: auto;
 }
 .alternative_intro .description:after {
-    content: "";
-    background-color: #189dfb;
-    position: absolute;
-    z-index: -1;
-    opacity: .16;
-    transform: rotate(
-45deg
-);
-    width: 164px;
-    height: 164px;
-    top: auto;
-    right: auto;
-    bottom: 15%;
-    left: 10%;
+  content: "";
+  background-color: $azure icon-azure;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.16;
+  transform: rotate(45deg);
+  width: 164px;
+  height: 164px;
+  top: auto;
+  right: auto;
+  bottom: 15%;
+  left: 10%;
+}
+.hyperlinks {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.val {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  &::before {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+.azure {
+  color: $azure;
+}
+.rubin {
+  color: $rubin;
+}
+.green {
+  color: $green;
+}
+.matrix_cell:nth-child(3n + 1) {
+  position: sticky;
+  left: 0;
+  background: #fff;
+}
+.radio::before {
+  content: "✔️";
+  font-size: 18px;
+  font-weight: 400;
+}
+.arrow-down::before {
+  content: "↓";
+  display: flex;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-weight: 900;
+}
+.arrow-up::before {
+  content: "↑";
+  display: flex;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-weight: 900;
+}
+.icon-green::before {
+  color: $green;
+  border: $green;
+}
+.icon-azure::before {
+  color: $azure;
+  border-color: $azure;
+}
+.icon-azure-inverted::before {
+  color: #fff;
+  background: $azure;
+  border-color: $azure;
+}
+.icon-green-inverted::before {
+  color: #fff;
+  background: $green;
+  border-color: $green;
+}
+.rounded::before {
+  border: 2px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.crown {
+  color: $gold;
+  display: flex;
+  gap: 5px;
+}
+.crown::before {
+  content: "👑";
+  color: $gold;
 }

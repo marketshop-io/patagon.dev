@@ -55,7 +55,7 @@
       right: auto;
       bottom: auto;
       left: 14%;
-      background-color: #189dfb;
+      background-color: $azure;
       position: absolute;
       z-index: -1;
       opacity: 0.16;
@@ -170,8 +170,8 @@
   .button {
     display: inline-block;
     padding: 13px 21px;
-    background-color: #8f68fb;
-    border: 2px solid #8f68fb;
+    background-color: $blue;
+    border: 2px solid $blue;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 500;
@@ -198,7 +198,7 @@
     }
     p {
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 400;
     }
     .button {
       display: block;
@@ -277,15 +277,15 @@
       }
     }
     span {
-      color: #8f68fb;
+      color: $blue;
     }
   }
 }
 .button {
   display: inline-block;
   padding: 13px 21px;
-  background-color: #8f68fb;
-  border: 2px solid #8f68fb;
+  background-color: $blue;
+  border: 2px solid $blue;
   border-radius: 8px;
   font-size: 20px;
   font-weight: 500;
@@ -332,10 +332,4 @@
         display: none;
     }
   }
-}
-
-.matrix_cell:nth-child(3n + 1) {
-  position: sticky;
-  left: 0;
-  background: #fff;
 }
