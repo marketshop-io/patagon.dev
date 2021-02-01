@@ -1,28 +1,28 @@
 feature_image: "/assets/images/matrix.svg"
-tip: Get the free plugin
+tip: Corporative Integrations
 cards:
-  - title: Studio
-    text : Mercado Stack as web app
+  - title: DIY
+    text : Mercado Stack Do It Yourself
     button: Start building now
     link: "#"
     headline: Start Now
-  - title: Studio
-    text : Mercado Stack as web app
+  - title: Enterprise
+    text : Mercado Stack within your ERP
     button: Start building now
     link: "#"
-    headline: Get Free
+    headline: Contact Us
 cta:
-  - title: Start building for free
+  - title: Start building
     link: "#"
-  - title: 	Get WordPress plugin
+  - title: 	Contact us
     link: "#"
 matrix:
   - title: Summary
     table: "01"
   - title: Basics
     table: "02"
-  - title: Question Blocks
+  - title: Stack
     table: "03"
-  - title: Logic
+  - title: Integration
     table: "04"
 

@@ -3,7 +3,7 @@ logo: /assets/images/logo.png
 email: your-email@example.com
 motto: Mercado is the best choice!
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
+  A full stack Marketplace solution with all the stuff you need.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:

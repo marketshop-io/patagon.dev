@@ -1,11 +1,12 @@
-title: Typeform  ⚔️  Tripetto
-description: A quick comparison of the free plans of Typeform and Tripetto.
-table_head1: "Typeform<span>Free plan</span>"
+title: Shopify  ⚔️  Mercado Stack
+description: A quick comparison between Shopify and Mercado Stack.
+table_head1: >
+  <img src="/assets/images/shopify1.png" alt="Logo"><span>SF</span>
 table_head2: >
-  <img src="/assets/images/logo.png" alt="Logo">Tripetto<span>Free plan</span>
+  <img src="/assets/images/logo.png" alt="Logo"><span>DIY</span>
 table:
-  - name: Create conversational forms
-    val1: "Yes"
+  - name: Native Marketplace solution
+    val1: "No"
     class1: radio rounded azure icon-azure
     val2: "Yes"
     class2: radio rounded azure icon-azure-inverted
