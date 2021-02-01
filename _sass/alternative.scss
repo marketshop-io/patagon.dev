@@ -78,13 +78,18 @@
     margin-bottom: 24px;
     .header {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-columns: 1px 1fr 1fr;
+      justify-items: center;
       padding: 20px;
+      @media (min-width: 768px) {
+        grid-template-columns: 2fr 1fr 1fr;
+      }
     }
     .row {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 5px;
+      justify-items: center;
       padding: 20px 5px;
       .name {
         grid-column: 1/3;
