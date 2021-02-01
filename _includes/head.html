@@ -30,9 +30,9 @@
   {%- assign lang = "en_US" -%}
   {%- endif -%}
   {%- if page.description -%}
-  {%- assign descr = page.description -%}
+  {%- assign descr = page.description | strip_html -%}
   {%- else -%}
-  {%- assign descr = site.description -%}
+  {%- assign descr = site.description | strip_html -%}
   {%- endif -%}
   <meta name="description" content="{{descr}}" />
   {%- if page.published_time -%}
