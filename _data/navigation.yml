@@ -1,10 +1,12 @@
+- title: Home
+  link: "/"
 - title: Alternative
   link: "/alternative"
-- title: Examples
+- title: Features
+  link: "/features"
+- title: Blog
   link: "#"
-- title: Tutorials
+- title: Picing
   link: "#"
-- title: Pricing
-  link: "#"
-- title: Help
+- title: Contacts
   link: "#"
