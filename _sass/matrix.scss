@@ -266,9 +266,9 @@
     padding-bottom: 16px;
   }
   h2 {
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: -3px;
-    line-height: 1em;
+    line-height: 1.2;
     padding-bottom: 64px;
     padding-top: 30px;
     @media (min-width: 1024px) {
@@ -305,9 +305,10 @@
 .matrix_title {
   position: sticky;
   left: 0;
-  display: grid;
-  grid-template-columns: 70% 90px;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .buttons {
   display: flex;
