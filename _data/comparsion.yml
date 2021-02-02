@@ -11,7 +11,7 @@ table:
     val2: "Yes"
     class2: radio rounded azure icon-azure-inverted
   - name: Single Sign On System
-    val1: "No (+MailChimp)"
+    val1: "❌ No (+MailChimp)"
     class1: radio rounded azure icon-azure
     val2: "Yes"
     class2: radio rounded azure rubin
