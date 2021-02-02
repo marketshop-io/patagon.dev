@@ -1,8 +1,10 @@
 .footer_grid {
   display: grid;
+  width: 90%;
   grid-template-columns: repeat(2, 1fr);
   @media (min-width: 600px) {
     & {
+      width: 95%;
       grid-template-columns: repeat(3, 1fr);
     }
   }
@@ -77,8 +79,10 @@
   justify-content: center;
   gap: 20px;
   padding: 64px 15px;
-  img {
+  svg {
     width: 32px;
+    height: 32px;
+    fill: $theme-color;
   }
 }
 .footer_bottom {

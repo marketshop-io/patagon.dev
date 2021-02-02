@@ -60,19 +60,19 @@ top:
       - name: Swap Typeform
         link: "#"
 social:
-  - icon: "/assets/social/ionicons_svg_logo-facebook.svg"
+  - icon: "social/ionicons_svg_logo-facebook.svg"
     title: facebook
     link: #
-  - icon: "/assets/social/ionicons_svg_logo-instagram.svg"
+  - icon: "social/ionicons_svg_logo-instagram.svg"
     title: instagram
     link: #
-  - icon: "/assets/social/ionicons_svg_logo-npm.svg"
+  - icon: "social/ionicons_svg_logo-npm.svg"
     title: npm
     link: #
-  - icon: "/assets/social/ionicons_svg_logo-twitter.svg"
+  - icon: "social/ionicons_svg_logo-twitter.svg"
     title: twitter
     link: #
-  - icon: "/assets/social/ionicons_svg_logo-youtube.svg"
+  - icon: "social/ionicons_svg_logo-youtube.svg"
     title: youtube
     link: #
 

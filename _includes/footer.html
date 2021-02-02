@@ -24,15 +24,9 @@
     {%- for s in site.data.footer.social -%}
     <a href="{{s.link}}" target="_blank" class="social">
       <!-- <img src="{{s.icon}}" alt="{{s.title}}"> -->
-      assign svg = /social/ionicons_svg_logo-facebook.svg
-      {%- include {{svg}} -%}
+      {%- include {{s.icon}} -%}
     </a>
     {%- endfor -%}
-        <a href="#" target="_blank" class="social">
-          <svg class="i">
-            <use xlink:href="#arrow-top" />
-          </svg>
-        </a>
   </div>
   <div class="footer_bottom container">
     <div class="motto">{{site.motto}}</div>
