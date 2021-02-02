@@ -12,7 +12,7 @@ cards:
     link: "#"
     headline: Contact Us
 cta:
-  - title: Start building
+  - title: Deploy Marketplace Stack
     link: "#"
   - title: 	Contact us
     link: "#"
@@ -23,6 +23,6 @@ matrix:
     table: "02"
   - title: Stack
     table: "03"
-  - title: Integration
+  - title: Customization
     table: "04"
 
