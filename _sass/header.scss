@@ -24,7 +24,7 @@ nav ul {
     padding: 0 5px;
     a {
       display: block;
-      color: #18214d;
+      color: $theme-color;
       font-size: 24px;
       font-weight: 500;
       letter-spacing: -0.4px;
@@ -80,7 +80,7 @@ nav ul {
 .hamburger .hamburger-inner::after {
   width: 20px;
   height: 2px;
-  background-color: #18214d;
+  background-color: $theme-color;
   position: absolute;
   transition-property: transform;
   transition-duration: 0.5s;

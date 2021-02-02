@@ -140,7 +140,7 @@
   -o-border-radius: 12px;
 
   &:nth-child(even) {
-    background: #18214d;
+    background: $theme-color;
     h2 {
       color: #fff;
     }
@@ -151,7 +151,7 @@
   &:nth-child(odd) {
     background: #f0f1f5;
     h2 {
-      color: #18214d;
+      color: $theme-color;
     }
     p {
       color: #777;
@@ -243,7 +243,7 @@
     }
   }
   .matrix_cta {
-    color: #18214d;
+    color: $theme-color;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: -0.5px;

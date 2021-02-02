@@ -1,14 +1,18 @@
 .home {
-  background: $home-bg;
+  background: $theme-color;
   * {
     color: #fff;
   }
 }
-section.home_intro {
-  padding: 0 2%;
+section.home_hero {
+  padding-top: 40px;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
   h1 {
     font-size: 70px;
-    line-height: 1em;
+    line-height: 1.1;
     font-weight: 800;
     letter-spacing: -3px;
   }
@@ -17,4 +21,50 @@ section.home_intro {
     font-size: 20px;
     line-height: 1.5em;
   }
+  @media (min-width: 768px) {
+    background-image: url(/assets/images/hero1.svg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+    background-position: right 20px bottom;
+    .home_intro {
+      width: 58%;
+    }
+    h1 {
+      font-size: 78px;
+    }
+  }
+  @media (min-width: 992px) {
+    & {
+      padding-top: 82px;
+      background-size: 450px;
+      background-position: right 20px bottom;
+    }
+  }
+  @media (min-width: 1200px) {
+    & {
+      background-size: 560px;
+      background-position: right 20px bottom;
+      h1 {
+        font-size: 120px;
+      }
+      p {
+        font-size: 28px;
+        width: 93%;
+      }
+    }
+  }
+}
+.home header {
+  background: $theme-color;
+  .hamburger .hamburger-inner, .hamburger .hamburger-inner::before, .hamburger .hamburger-inner::after {
+    background: #fff;
+  }
+}
+.home .site-footer {
+  .social-icon {
+    fill: #fff;
+  }
+* {
+  color: #fff;
+}
 }

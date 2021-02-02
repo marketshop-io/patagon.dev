@@ -14,7 +14,7 @@
   gap: 20px;
   border-top: 1px solid #ddd;
   * {
-    color: #18214d;
+    color: $theme-color;
   }
   .logo {
     width: 50px;
@@ -60,7 +60,7 @@
   background-color: #eff2f6;
   border: 1px solid #eff2f6;
   border-radius: 8px;
-  color: #18214d;
+  color: $theme-color;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.55px;
