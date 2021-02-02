@@ -12,7 +12,7 @@ table:
     class2: radio rounded azure icon-azure-inverted
   - name: Single Sign On System
     val1: "❌ No (+MailChimp)"
-    class1: radio rounded azure icon-azure
+    class1: azure icon-azure rubin
     val2: "Yes"
     class2: radio rounded azure rubin
   - name: HelpDesk System
