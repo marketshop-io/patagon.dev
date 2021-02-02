@@ -64,7 +64,8 @@ section.home_hero {
 }
 .home .site-footer {
   background: $theme-color;
-  .footer_grid {
+  .footer_grid,
+  .footer_bottom {
     border-top: 1px solid lighten($theme-color, 10%);
   }
   .footer_socials svg {
