@@ -78,3 +78,181 @@ section.home_hero {
 .home h2 span {
   color: $blue;
 }
+
+.mosaic_grid {
+  padding-top: 48px;
+  padding-bottom: 80px;
+  position: relative;
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &::before {
+    content: "";
+    background-color: #feca2f;
+    position: absolute;
+    opacity: 0.16;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 10%;
+  }
+  @media (min-width: 992px) {
+    & {
+      padding-top: 72px;
+      padding-bottom: 104px;
+      .row {
+        flex-direction: row;
+        flex: 1 1 300px;
+      }
+    }
+  }
+}
+.mosaic_card {
+  padding: 15px 16px;
+  border-radius: 16px;
+  width: 100%;
+  height: 170px;
+  margin: 8px 0;
+  color: #fff;
+  position: relative;
+  transition: transform 0.2s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h3 {
+    font-size: 22px;
+    width: 65%;
+    line-height: 1.1em;
+  }
+  p {
+    width: 65%;
+    font-size: 15px;
+    line-height: 1.4em;
+    letter-spacing: -0.2px;
+    padding-top: 10px;
+  }
+  svg {
+    position: absolute;
+  }
+}
+.row-1 .card-1 {
+  background-color: #855ffb;
+  svg {
+    position: absolute;
+    width: 160px;
+    right: 10px;
+    bottom: -44px;
+  }
+}
+.row-1 .card-2 {
+  background-color: #fa3a69;
+  svg {
+    position: absolute;
+    width: 160px;
+    right: -30px;
+    bottom: -14px;
+  }
+}
+.row-1 .card-3 {
+  background-color: #2bcdfd;
+  svg {
+    position: absolute;
+    width: 160px;
+    right: 0px;
+    bottom: -15px;
+  }
+}
+.row-2 .card-1 {
+  background-color: #feca2f;
+  svg {
+    position: absolute;
+    width: 160px;
+    right: -30px;
+    bottom: -24px;
+  }
+}
+.row-2 .card-2 {
+  overflow: hidden;
+  background-color: #189dfb;
+  svg {
+    position: absolute;
+    width: 160px;
+    right: 0px;
+    bottom: -35px;
+  }
+}
+.row-3 .card-1 {
+  background-color: #30ca89;
+  svg {
+    position: absolute;
+    width: 160px;
+    right: -10px;
+    bottom: -14px;
+  }
+}
+@media (min-width: 992px) {
+  .mosaic_card {
+    width: 30%;
+  }
+  .row-1 .card-1 {
+    background-color: #855ffb;
+    svg {
+      position: absolute;
+      width: 160px;
+      right: 10px;
+      bottom: -44px;
+    }
+  }
+  .row-1 .card-2 {
+    background-color: #fa3a69;
+    svg {
+      position: absolute;
+      width: 160px;
+      right: -30px;
+      bottom: -14px;
+    }
+  }
+  .row-1 .card-3 {
+    background-color: #2bcdfd;
+    svg {
+      position: absolute;
+      width: 160px;
+      right: 0px;
+      bottom: -15px;
+    }
+  }
+  .row-2 .card-1 {
+    background-color: #feca2f;
+    svg {
+      position: absolute;
+      width: 160px;
+      right: -30px;
+      bottom: -24px;
+    }
+  }
+  .row-2 .card-2 {
+    overflow: hidden;
+    background-color: #189dfb;
+    svg {
+      position: absolute;
+      width: 160px;
+      right: 0px;
+      bottom: -35px;
+    }
+  }
+  .row-3 .card-1 {
+    background-color: #30ca89;
+    svg {
+      position: absolute;
+      width: 160px;
+      right: -10px;
+      bottom: -14px;
+    }
+  }
+}
