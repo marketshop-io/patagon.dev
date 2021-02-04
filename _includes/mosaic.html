@@ -1,24 +1,26 @@
 {%- assign m = site.data.home -%}
 <section class="mosaic">
-  <div class="container">
-    <div class="intro">
-      <h2>{{m.mosaic_title}}</h2>
-      <p>{{m.mosaic_descr}}</p>
-      <a href="{{m.mosaic_link}}" class="hyperlink">{{m.mosaic_text}} ⇨</a>
-    </div>
-    <div class="mosaic_grid">
-      {%- for row in m.mosaic -%}
-      <div class="row row-{{forloop.index}}">
-          {%- for c in row.row -%}
-            <a href="{{c.link}}" class="mosaic_card card-{{forloop.index}}">
-              <h3>{{c.title}}</h3>
-              <p>{{c.descr}}</p>
-              {%- assign svg = c.image | prepend: "svg/" -%}
-              {%- include {{svg}} -%}
-            </a>
-          {%- endfor -%}
-        </div>
-          {%- endfor -%}
-    </div>
+  <div class="intro">
+    <h2>{{m.mosaic_title}}</h2>
+    <p>{{m.mosaic_descr}}</p>
+    <a href="{{m.mosaic_link}}" class="hyperlink">{{m.mosaic_text}} ⇨</a>
   </div>
-</section>  
+  <div class="mosaic_grid">
+    {%- for row in m.mosaic -%}
+    <div class="row row-{{forloop.index}}">
+      {%- for c in row.row -%}
+      <a href="{{c.link}}" class="mosaic_card card-{{forloop.index}}">
+        {%- if c.image -%}
+        <h3>{{c.title}}</h3>
+        <p>{{c.descr}}</p>
+        {%- assign svg = c.image | prepend: "svg/" -%}
+        {%- include {{svg}} -%}
+        {%- else -%}
+        {{c.title}}
+        {%- endif -%}
+      </a>
+      {%- endfor -%}
+    </div>
+    {%- endfor -%}
+  </div>
+</section>

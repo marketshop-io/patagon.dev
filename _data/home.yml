@@ -18,7 +18,7 @@ mosaic:
       link: "#"
       bgcolor:
       descr: Present as a classic form, chat or Typeform-like interaction.
-      image: 3.svg
+      image: customization.svg
   - row:
     - title: Flexible Publication
       link: "#"
@@ -36,3 +36,5 @@ mosaic:
       bgcolor:
       descr: Automate things smartly.
       image: 6.svg
+    - title: And more...
+      link: "#"

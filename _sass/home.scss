@@ -78,11 +78,16 @@ section.home_hero {
 .home h2 span {
   color: $blue;
 }
-
+.mosaic {
+  border-top: 1px solid lighten($theme-color, 10%);
+}
 .mosaic_grid {
   padding-top: 48px;
   padding-bottom: 80px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   .row {
     display: flex;
     justify-content: center;
@@ -108,7 +113,8 @@ section.home_hero {
       padding-bottom: 104px;
       .row {
         flex-direction: row;
-        flex: 1 1 300px;
+        gap: 30px;
+        flex-wrap: nowrap;
       }
     }
   }
@@ -172,7 +178,6 @@ section.home_hero {
   background-color: #feca2f;
   svg {
     position: absolute;
-    width: 160px;
     right: -30px;
     bottom: -24px;
   }
@@ -196,30 +201,44 @@ section.home_hero {
     bottom: -14px;
   }
 }
+.row-3 .card-2 {
+  height: 50px;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 30px;
+  color: #fa3a69;
+}
 @media (min-width: 992px) {
   .mosaic_card {
     width: 30%;
   }
   .row-1 .card-1 {
     background-color: #855ffb;
+    align-self: center;
+    width: 330px;
+    height: 250px;
     svg {
       position: absolute;
-      width: 160px;
       right: 10px;
       bottom: -44px;
     }
   }
   .row-1 .card-2 {
     background-color: #fa3a69;
+    width: 250px;
+    height: 330px;
+    align-self: center;
     svg {
       position: absolute;
-      width: 160px;
       right: -30px;
       bottom: -14px;
     }
   }
   .row-1 .card-3 {
     background-color: #2bcdfd;
+    align-self: flex-end;
+    width: 330px;
+    height: 250px;
+    overflow: hidden;
     svg {
       position: absolute;
       width: 160px;
@@ -228,6 +247,10 @@ section.home_hero {
     }
   }
   .row-2 .card-1 {
+    width: 250px;
+    height: 330px;
+    left: -100px;
+    top: -40px;
     background-color: #feca2f;
     svg {
       position: absolute;
@@ -237,6 +260,9 @@ section.home_hero {
     }
   }
   .row-2 .card-2 {
+    left: -100px;
+    width: 330px;
+    height: 250px;
     overflow: hidden;
     background-color: #189dfb;
     svg {
@@ -247,6 +273,10 @@ section.home_hero {
     }
   }
   .row-3 .card-1 {
+    top: -80px;
+    left: 180px;
+    width: 250px;
+    height: 330px;
     background-color: #30ca89;
     svg {
       position: absolute;
@@ -254,5 +284,9 @@ section.home_hero {
       right: -10px;
       bottom: -14px;
     }
+  }
+  .row-3 .card-2 {
+    top: 210px;
+    left: 186px;
   }
 }
