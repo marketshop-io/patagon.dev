@@ -24,7 +24,7 @@
 @media (min-width: 768px) {
   .alternative_intro {
     * {
-      max-width: 76%;
+      max-width: 75%;
     }
     h1 {
       font-size: 64px;
@@ -36,7 +36,12 @@
   }
 }
 @media (min-width: 992px) {
-  .alternative_intro p.description {
+  .alternative_intro {
+    * {
+      max-width: 67%;
+    }
+  }
+  p.description {
     padding-bottom: 104px;
   }
 }
@@ -110,18 +115,10 @@
     }
   }
 }
+
 .alternative_intro::before {
-  content: "";
-  display: block;
   position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 0;
-  right: 10%;
-  bottom: auto;
-  left: auto;
-}
-.alternative_intro::before {
+  display: block;
   content: "";
   background-color: #30ca89;
   z-index: -1;
@@ -134,9 +131,15 @@
   bottom: auto;
   left: auto;
 }
+@media (min-width: 992px) {
+  .alternative_intro::before {
+    width: 240px;
+    height: 240px;
+  }
+}
 .alternative_intro .description:after {
   content: "";
-  background-color: $azure icon-azure;
+  background-color: $azure;
   position: absolute;
   z-index: -1;
   opacity: 0.16;

@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  color: #18214d;
+  color: $theme-color;
   letter-spacing: -0.5px;
   -webkit-font-smoothing: antialiased;
   cursor: default;
@@ -14,12 +14,107 @@ body {
       display: flex;
     }
   }
+
+  .page_intro {
+    padding-top: 60px;
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 20px;
+    }
+    &::before {
+      top: 80px;
+    }
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 60px;
+      }
+    }
+    @media (min-width: 992px) {
+      & {
+        padding-top: 100px;
+      }
+      h1 {
+        font-size: 100px;
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+    @media (min-width: 1200px) {
+      & {
+        padding-top: 144px;
+      }
+      h1 {
+        font-size: 120px;
+      }
+      p {
+        font-size: 28px;
+      }
+    }
+  }
 }
 
 .container {
   width: 100%;
-  max-width: 1300px;
+  //max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 2%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+h2 {
+  font-size: 50px;
+  letter-spacing: -3px;
+  line-height: 1.2;
+  padding-bottom: 64px;
+  padding-top: 30px;
+  @media (min-width: 1024px) {
+    & {
+      font-size: 80px;
+    }
+  }
+  span {
+    color: $blue;
+  }
+}
+
+.home .hyperlink {
+  margin-top: 32px;
+  color: $blue;
+  font-size: 20px;
+  font-weight: 600;
+  @media (min-width: 992px) {
+    & {
+      margin-top: 48px;
+      font-size: 24px;
+    }
+  }
+  @media (min-width: 1200px) {
+    & {
+      margin-top: 48px;
+      font-size: 27px;
+    }
+  }
 }

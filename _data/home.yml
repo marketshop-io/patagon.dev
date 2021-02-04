@@ -1,0 +1,40 @@
+mosaic_title: <span>Enter Mercado Stack.</span>  Wake-up call for form tool dinosaurs.
+mosaic_descr: We merged the best of SurveyMonkey, Typeform and Landbot into a single conversational solution with innovative features to let you build personable forms and surveys for all your audiences to <strong>boost completion rates for better insights</strong>.
+mosaic_link: "#"
+mosaic_text: Take the product tour 
+mosaic:
+  - row:
+    - title: Assistive Storyboard
+      link: "#"
+      bgcolor:
+      descr: Build forms and surveys like flowcharts.
+      image: 1.svg
+    - title: Data Storage Freedom
+      link: "#"
+      bgcolor:
+      descr: Store things at Tripetto or self-host whatever you like. Hello GDPR!
+      image: 2.svg
+    - title: Convertible Form Faces
+      link: "#"
+      bgcolor:
+      descr: Present as a classic form, chat or Typeform-like interaction.
+      image: customization.svg
+  - row:
+    - title: Flexible Publication
+      link: "#"
+      bgcolor:
+      descr: Share a simple link or embed deeply.
+      image: 4.svg
+    - title: Conversational Logic Types
+      link: "#"
+      bgcolor:
+      descr: Create seriously conversational flows with logic, actions and calculations. No code, guaranteed.
+      image: 5.svg
+  - row:
+    - title: Active Integrations
+      link: "#"
+      bgcolor:
+      descr: Automate things smartly.
+      image: 6.svg
+    - title: And more...
+      link: "#"

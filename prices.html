@@ -1,0 +1,49 @@
+---
+layout : default
+title : WP Plugin
+description: "The <b>standard WordPress plugin is completely free.</b> We offer premium upgrades for select features and
+removing Mercado branding. There’s even an LTD 🚀!"
+---
+
+{%- assign p = site.data.prices -%}
+<article class="container">
+  <section class="alternative_intro page_intro">
+    <h1>{{page.title}}</h1>
+    <h6>{{page.subtitle}}</h6>
+    <p class="description">{{page.description}}</p>
+  </section>
+  <section class="free_content">
+    <div class="free">
+      <div class="left">
+        <span>{{p.free.span}}</span>
+        <h2>{{p.free.title}}</h2>
+        <p>{{p.free.descr}}</p>
+        <img src="{{p.free.image}}" alt="{{p.free.title}}">
+      </div>
+      <div class="right">
+        <div class="pricing-price-prefix">
+          <div class="valuta">$</div>
+          <div class="amount">0</div>
+          <div class="decimals">.00</div>
+        </div>
+        <ul class="pricing-features">
+          <li><a href="{{p.free.features.link}}"></a><b>{{p.free.features.title}}</b></li>
+          {%- for i in p.free.features.list -%}
+          <li>{{i}}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+    <ul class="hyperlinks">
+      {%- for l in p.hiperlinks -%}
+      <li>
+        <a href="{{l.link}}" class="hyperlink hyperlink-small anchor">{{l.title}}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+  <section class="premium_content" id="premium">
+    <h2>{{p.premium.title}}</h2>
+    <p>{{p.premium.descr}}</p>
+  </section>
+</article>

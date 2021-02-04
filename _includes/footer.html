@@ -15,7 +15,6 @@
     </div>
     {%- endfor -%}
   </div>
-
   <!-- Subscribe form -->
   {%- include subscribe_form.html -%}
 
@@ -23,7 +22,8 @@
   <div class="footer_socials">
     {%- for s in site.data.footer.social -%}
     <a href="{{s.link}}" target="_blank" class="social">
-      <img src="{{s.icon}}" alt="{{s.title}}">
+      <!-- <img src="{{s.icon}}" alt="{{s.title}}"> -->
+      {%- include {{s.icon}} -%}
     </a>
     {%- endfor -%}
   </div>
@@ -31,4 +31,5 @@
     <div class="motto">{{site.motto}}</div>
     <div class="copy">Copyright © {{site.time | date: "%Y"}} {{site.title}}</div>
   </div>
+  
 </footer>
