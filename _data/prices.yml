@@ -1,0 +1,19 @@
+free:
+  title: Free Plan
+  desctiption: The <strong>standard WordPress plugin is free</strong>. What’s the catch? Standard is for a single site and all forms have Tripetto branding. We offer premium upgrades for removing it and for other select advanced features.
+  span: Standard plugin
+  image: '/assets/svg/wordpress-free.svg'
+  features:
+    title: All Tripetto features
+    link: "#"
+    list:
+      - ✔️ Unlimited forms
+      - ✔️ Unlimited logic
+      - ✔️ Unlimited questions
+      - ✔️ Unlimited responses
+      - ❌ Single-site installation
+      - ❌ Removable Tripetto branding<sup>1</sup>
+      - ❌ Webhooks<sup>1</sup>
+      - ❌ Slack notifications<sup>1</sup>
+      - ❌ Multisite installations<sup>1</sup>
+
