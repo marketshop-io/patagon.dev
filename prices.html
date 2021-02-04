@@ -1,6 +1,6 @@
 ---
-layout     : default
-title      : WP Plugin
+layout : default
+title : WP Plugin
 description: "The <b>standard WordPress plugin is completely free.</b> We offer premium upgrades for select features and
 removing Mercado branding. There’s even an LTD 🚀!"
 ---
@@ -12,12 +12,12 @@ removing Mercado branding. There’s even an LTD 🚀!"
     <h6>{{page.subtitle}}</h6>
     <p class="description">{{page.description}}</p>
   </section>
-  <section class="content">
+  <section class="free_content">
     <div class="free">
       <div class="left">
         <span>{{p.free.span}}</span>
         <h2>{{p.free.title}}</h2>
-        <p>{{p.free.desctiption}}</p>
+        <p>{{p.free.descr}}</p>
         <img src="{{p.free.image}}" alt="{{p.free.title}}">
       </div>
       <div class="right">
@@ -34,5 +34,16 @@ removing Mercado branding. There’s even an LTD 🚀!"
         </ul>
       </div>
     </div>
+    <ul class="hyperlinks">
+      {%- for l in p.hiperlinks -%}
+      <li>
+        <a href="{{l.link}}" class="hyperlink hyperlink-small anchor">{{l.title}}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+  <section class="premium_content" id="premium">
+    <h2>{{p.premium.title}}</h2>
+    <p>{{p.premium.descr}}</p>
   </section>
 </article>
