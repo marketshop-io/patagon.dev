@@ -13,8 +13,7 @@
         {%- if c.image -%}
         <h3>{{c.title}}</h3>
         <p>{{c.descr}}</p>
-        {%- assign svg = c.image | prepend: "svg/" -%}
-        {%- include {{svg}} -%}
+        <img src="/assets/svg/{{c.image}}" alt="">
         {%- else -%}
         {{c.title}}
         {%- endif -%}

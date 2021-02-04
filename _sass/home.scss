@@ -63,12 +63,16 @@ section.home_hero {
   }
 }
 .home .site-footer {
+  padding-top: 100px;
   background: $theme-color;
-  .footer_grid,
+  border-top: 1px solid lighten($theme-color, 10%);
+  .footer_grid {
+    border: none;
+  }
   .footer_bottom {
     border-top: 1px solid lighten($theme-color, 10%);
   }
-  .footer_socials svg {
+  .footer_socials img {
     fill: #fff;
   }
   * {
@@ -118,19 +122,25 @@ section.home_hero {
       }
     }
   }
+  @media (min-width: 1200px) {
+    & {
+      .row {
+        gap: 50px;
+      }
+    }
+  }
 }
 .mosaic_card {
   padding: 15px 16px;
   border-radius: 16px;
   width: 100%;
-  height: 170px;
+  height: 190px;
   margin: 8px 0;
   color: #fff;
   position: relative;
   transition: transform 0.2s ease-out;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   h3 {
     font-size: 22px;
     width: 65%;
@@ -143,49 +153,50 @@ section.home_hero {
     letter-spacing: -0.2px;
     padding-top: 10px;
   }
-  svg {
+  img {
     position: absolute;
   }
 }
 .row-1 .card-1 {
   background-color: #855ffb;
-  svg {
+  img {
     position: absolute;
-    width: 160px;
-    right: 10px;
-    bottom: -44px;
+    width: 190px;
+    height: auto;
+    right: 0;
+    bottom: 0;
   }
 }
 .row-1 .card-2 {
   background-color: #fa3a69;
-  svg {
+  img {
     position: absolute;
-    width: 160px;
-    right: -30px;
-    bottom: -14px;
+    height: auto;
+    right: -10px;
+    bottom: -10px;
   }
 }
 .row-1 .card-3 {
   background-color: #2bcdfd;
-  svg {
+  img {
     position: absolute;
     width: 160px;
     right: 0px;
-    bottom: -15px;
+    bottom: 0;
   }
 }
 .row-2 .card-1 {
   background-color: #feca2f;
-  svg {
+  img {
     position: absolute;
-    right: -30px;
-    bottom: -24px;
+    right: -6px;
+    bottom: -9px;
   }
 }
 .row-2 .card-2 {
   overflow: hidden;
   background-color: #189dfb;
-  svg {
+  img {
     position: absolute;
     width: 160px;
     right: 0px;
@@ -194,11 +205,10 @@ section.home_hero {
 }
 .row-3 .card-1 {
   background-color: #30ca89;
-  svg {
+  img {
     position: absolute;
-    width: 160px;
-    right: -10px;
-    bottom: -14px;
+    right: 0px;
+    bottom: 0px;
   }
 }
 .row-3 .card-2 {
@@ -209,41 +219,43 @@ section.home_hero {
 }
 @media (min-width: 992px) {
   .mosaic_card {
-    width: 30%;
+    width: fit-content;
+    h3 {
+      font-size: 30px;
+    }
   }
   .row-1 .card-1 {
-    background-color: #855ffb;
     align-self: center;
     width: 330px;
     height: 250px;
-    svg {
-      position: absolute;
+    img {
       right: 10px;
-      bottom: -44px;
+    bottom: 0;
+    width: 250px;
+    height: auto;
     }
   }
   .row-1 .card-2 {
-    background-color: #fa3a69;
     width: 250px;
     height: 330px;
     align-self: center;
-    svg {
-      position: absolute;
+    img {
       right: -30px;
       bottom: -14px;
+      height: 180px;
+      width: auto;
     }
   }
   .row-1 .card-3 {
-    background-color: #2bcdfd;
     align-self: flex-end;
     width: 330px;
     height: 250px;
     overflow: hidden;
-    svg {
-      position: absolute;
-      width: 160px;
-      right: 0px;
-      bottom: -15px;
+    img {
+      width: auto;
+      height: 100px;
+      right: 0;
+      bottom: 0;
     }
   }
   .row-2 .card-1 {
@@ -251,12 +263,11 @@ section.home_hero {
     height: 330px;
     left: -100px;
     top: -40px;
-    background-color: #feca2f;
-    svg {
-      position: absolute;
-      width: 160px;
-      right: -30px;
-      bottom: -24px;
+    img {
+      width: 142px;
+      height: auto;
+      right: -10px;
+      bottom: -14px;
     }
   }
   .row-2 .card-2 {
@@ -264,26 +275,54 @@ section.home_hero {
     width: 330px;
     height: 250px;
     overflow: hidden;
-    background-color: #189dfb;
-    svg {
-      position: absolute;
-      width: 160px;
-      right: 0px;
-      bottom: -35px;
+    img {
+      width: auto;
+      bottom: 0;
     }
   }
   .row-3 .card-1 {
     top: -80px;
-    left: 180px;
+    left: 140px;
     width: 250px;
     height: 330px;
-    background-color: #30ca89;
-    svg {
-      position: absolute;
-      width: 160px;
-      right: -10px;
-      bottom: -14px;
+    img {
+      height: 60%;
+      right: 0;
+      bottom: 0;
     }
+  }
+  .row-3 .card-2 {
+    top: 210px;
+    left: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  .row-1 .card-1 {
+    width: 400px;
+    height: 280px;
+  }
+  .row-1 .card-2 {
+    width: 280px;
+    height: 400px;
+  }
+  .row-1 .card-3 {
+    width: 400px;
+    height: 280px;
+  }
+  .row-2 .card-1 {
+    width: 280px;
+    height: 400px;
+  }
+  .row-2 .card-2 {
+    width: 400px;
+    height: 280px;
+    top: 20px;
+  }
+  .row-3 .card-1 {
+    top: -80px;
+    left: 150px;
+    width: 280px;
+    height: 400px;
   }
   .row-3 .card-2 {
     top: 210px;
