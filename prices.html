@@ -6,7 +6,7 @@ removing Mercado branding. There’s even an LTD 🚀!"
 ---
 
 {%- assign p = site.data.prices -%}
-<article class="container">
+<article class="container prices">
   <section class="alternative_intro page_intro">
     <h1>{{page.title}}</h1>
     <h6>{{page.subtitle}}</h6>
@@ -32,6 +32,10 @@ removing Mercado branding. There’s even an LTD 🚀!"
           <li>{{i}}</li>
           {%- endfor -%}
         </ul>
+        <a href="{{p.free.features.button.link}}" class="button bgblue">{{p.free.features.button.title}}</a>
+        <small>{{p.free.features.after.title}}
+          <a href="{{p.free.features.after.link}}">{{p.free.features.after.text}}</a>
+        </small>
       </div>
     </div>
     <ul class="hyperlinks">
@@ -43,7 +47,46 @@ removing Mercado branding. There’s even an LTD 🚀!"
     </ul>
   </section>
   <section class="premium_content" id="premium">
-    <h2>{{p.premium.title}}</h2>
-    <p>{{p.premium.descr}}</p>
+    <div class="alternative_intro"><h2>{{p.premium.title}}</h2>
+    <p>{{p.premium.descr}}</p></div>
+    <div class="carousel">
+      <ul class="carousel-buttons">
+        {%- for i in p.premium.plans -%}
+        {%- if forloop.first -%}
+          <li class="active">{{i.item.name}}</li>
+          {%- else -%}
+          <li>{{i.item.name}}</li>
+        {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      <div class="slides">
+        {%- for slide in p.premium.plans -%}
+        <div class="slide">
+          {%- for sp in slide.item.items -%}
+          <div class="col col-{{forloop.index}}">
+            <h3>{{sp.title}}</h3>
+            <p>{{sp.descr}}</p>
+            {%- assign pa = sp.price-p | split: '.' -%}
+            <div class="pricing-price-prefix">
+              <div class="valuta">$</div>
+              <div class="amount">{{pa[0]}}</div>
+              <div class="decimals">{{pa[1]}}</div>
+            </div>
+            <ul class="pricing-features">
+              <li><b>{{sp.features.title}}</b></li>
+              {%- for i in sp.features.list -%}
+              <li>{{i}}</li>
+              {%- endfor -%}
+            </ul>
+            {%- if forloop.last -%}
+              <img src="{{sp.image}}" alt="{{sp.title}}">
+            {%- endif -%}
+            <a class="button bottom-20" href="{{sp.features.button.link}}">{{sp.features.button.title}}</a>
+          </div>
+          {%- endfor -%}
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
   </section>
 </article>

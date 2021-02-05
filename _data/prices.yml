@@ -1,27 +1,305 @@
 free:
   title: Free Plan
-  descr: The <strong>standard WordPress plugin is free</strong>. What’s the catch? Standard is for a single site and all forms have Tripetto branding. We offer premium upgrades for removing it and for other select advanced features.
+  descr: The <strong>standard WordPress plugin is free</strong>. What’s the catch? Standard is for a single site and all forms have Mercado branding. We offer premium upgrades for removing it and for other select advanced features.
   span: Standard plugin
   image: '/assets/svg/wordpress-free.svg'
   features:
-    title: All Tripetto features
+    title: All Mercado features
     link: "#"
+    button:
+      title: Get the free plugin
+      link: "#"
+      color: $blue
+    after:
+      title: 1. Available as 
+      link: "#premium"
+      text: premium upgrades
     list:
-      - ✔️ Unlimited forms
-      - ✔️ Unlimited logic
-      - ✔️ Unlimited questions
-      - ✔️ Unlimited responses
-      - ❌ Single-site installation
-      - ❌ Removable Tripetto branding<sup>1</sup>
-      - ❌ Webhooks<sup>1</sup>
-      - ❌ Slack notifications<sup>1</sup>
-      - ❌ Multisite installations<sup>1</sup>
+      - <l>✔️</l> Unlimited forms
+      - <l>✔️</l> Unlimited logic
+      - <l>✔️</l> Unlimited questions
+      - <l>✔️</l> Unlimited responses
+      - <m>❌</m> Single-site installation
+      - <m>❌</m> Removable Mercado branding<sup>1</sup>
+      - <m>❌</m> Webhooks<sup>1</sup>
+      - <m>❌</m> Slack notifications<sup>1</sup>
+      - <m>❌</m> Multisite installations<sup>1</sup>
 hiperlinks:
   - title: See premium upgrades ↓
     link: "#premium"
-  - title: About the Tripetto WordPress plugin →
+  - title: About the Mercado WordPress plugin →
     link: "#"
 premium:
   title: Premium upgrades
   descr: The free WordPress plugin is a fullblown form solution. On top of that, you can boost it with premium upgrades. <b>Upgrades are per plugin and charged recurringly</b>, except for the Lifetime Deal 🚀.
+  plans:
+    - item: 
+        name: Single site
+        items:
+          - title: Monthly
+            descr: Most flexible, not cheapest.
+            price-p: 9.99
+            price-s: Per month. Billed monthly.
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase monthly
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
 
+          - title: Annually
+            descr: Same. But 25% less than monthly.
+            price-p: 7.99
+            price-s: Per month. Billed annually for $647.88.
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase Annually
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
+
+          - title: Lifetime 🚀
+            descr: Hands down our best deal. Period.
+            price-p: 1949.99
+            price-s: Per month. Billed annually for $647.88.
+            image: '/assets/svg/wordpress-free.svg'
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase Lifetime
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
+    - item: 
+        name: 5-sites
+        items:
+          - title: Monthly
+            descr: Most flexible, not cheapest.
+            price-p: 9.99
+            price-s: Per month. Billed monthly.
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase monthly
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
+
+          - title: Annually
+            descr: Same. But 25% less than monthly.
+            price-p: 7.99
+            price-s: Per month. Billed annually for $647.88.
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase Annually
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
+
+          - title: Lifetime 🚀
+            descr: Hands down our best deal. Period.
+            price-p: 1949.99
+            price-s: Per month. Billed annually for $647.88.
+            image: '/assets/svg/wordpress-free.svg'
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase Lifetime
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
+    - item: 
+        name: Unlimited
+        items:
+          - title: Monthly
+            descr: Most flexible, not cheapest.
+            price-p: 9.99
+            price-s: Per month. Billed monthly.
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase monthly
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
+
+          - title: Annually
+            descr: Same. But 25% less than monthly.
+            price-p: 7.99
+            price-s: Per month. Billed annually for $647.88.
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase Annually
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
+
+          - title: Lifetime 🚀
+            descr: Hands down our best deal. Period.
+            price-p: 1949.99
+            price-s: Per month. Billed annually for $647.88.
+            image: '/assets/svg/wordpress-free.svg'
+            features:
+              title: All Mercado features
+              link: "#"
+              button:
+                title: Purchase Lifetime
+                link: "#"
+                color: $blue
+              after:
+                - title: 1. Available as 
+                  link: "#5-sites"
+                  text: 5-sites
+                - title: or 
+                  link: "#unlimit"
+                  text: unlimit
+              list:
+                - <l>✔️</l> Unlimited forms
+                - <l>✔️</l> Unlimited logic
+                - <l>✔️</l> Unlimited questions
+                - <l>✔️</l> Unlimited responses
+                - <m>❌</m> Single-site installation
+                - <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - <m>❌</m> Webhooks<sup>1</sup>
+                - <m>❌</m> Slack notifications<sup>1</sup>
+                - <m>❌</m> Multisite installations<sup>1</sup>
