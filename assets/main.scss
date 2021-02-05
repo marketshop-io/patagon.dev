@@ -9,6 +9,10 @@ $theme-color: #18214d;
 $home-bg: rgba(24,33,77,0.9);
 $baseurl: "{{site.baseurl}}";
 
+@import "minima";
+@import "base";
+@import "layout";
+@import "_syntax-highlighting";
 @import "_reset";
 @import "page";
 @import "home";
@@ -17,6 +21,7 @@ $baseurl: "{{site.baseurl}}";
 @import "matrix";
 @import "prices";
 @import "footer";
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
 
