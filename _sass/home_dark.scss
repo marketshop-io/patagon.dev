@@ -1,3 +1,9 @@
+.home {
+  background: $theme-color;
+  * {
+    color: #fff;
+  }
+}
 section.home_hero {
   padding-top: 40px;
   position: relative;
@@ -48,25 +54,36 @@ section.home_hero {
     }
   }
 }
-
+.home header {
+  background: $theme-color;
+  .hamburger .hamburger-inner,
+  .hamburger .hamburger-inner::before,
+  .hamburger .hamburger-inner::after {
+    background: #fff;
+  }
+}
 .home .site-footer {
   padding-top: 100px;
-  border-top: 1px solid #ddd;
+  background: $theme-color;
+  border-top: 1px solid lighten($theme-color, 10%);
   .footer_grid {
     border: none;
   }
   .footer_bottom {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid lighten($theme-color, 10%);
   }
   .footer_socials img {
-    fill: $theme-color;
+    fill: #fff;
+  }
+  * {
+    color: #fff;
   }
 }
 .home h2 span {
   color: $blue;
 }
 .mosaic {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid lighten($theme-color, 10%);
 }
 .mosaic_grid {
   padding-top: 48px;

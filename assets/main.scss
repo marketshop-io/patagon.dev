@@ -1,9 +1,15 @@
 ---
 ---
-
+$blue: #8f68fb;
+$azure: #189dfb;
+$green: #30ca89;
+$rubin: #fa3a69;
+$gold: #ecb22e;
+$theme-color: #18214d;
+$home-bg: rgba(24,33,77,0.9);
 $baseurl: "{{site.baseurl}}";
+
 @import "_reset";
-@import "variables";
 @import "page";
 @import "home";
 @import "alternative";
