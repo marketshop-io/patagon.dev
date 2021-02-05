@@ -53,13 +53,13 @@ removing Mercado branding. There’s even an LTD 🚀!"
       <ul class="carousel-buttons">
         {%- for i in p.premium.plans -%}
         {%- if forloop.first -%}
-          <li class="active">{{i.item.name}}</li>
+          <li class="active slide_btn" data-slide="s1">{{i.item.name}}</li>
           {%- else -%}
-          <li>{{i.item.name}}</li>
+          <li class="slide_btn" data-slide="s{{forloop.index}}">{{i.item.name}}</li>
         {%- endif -%}
         {%- endfor -%}
       </ul>
-      <div class="slides">
+      <div class="slides" id="slides">
         {%- for slide in p.premium.plans -%}
         <div class="slide">
           {%- for sp in slide.item.items -%}
@@ -90,3 +90,19 @@ removing Mercado branding. There’s even an LTD 🚀!"
     </div>
   </section>
 </article>
+
+<script>
+  const buttons = document.querySelectorAll(".slide_btn");
+    const slides = document.getElementById("slides");
+    buttons.forEach((el) =>
+      el.addEventListener("click", (event) => {
+        console.log(event.target)
+        var d = event.target.getAttribute("data-slide")
+        console.log(d)
+        slides.classList.remove("s1", "s2", "s3")
+        slides.classList.add(d)
+        buttons.forEach((el) => el.classList.remove("active"))
+        event.target.classList.add("active")
+      }, false)
+    );
+</script>

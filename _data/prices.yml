@@ -96,7 +96,7 @@ premium:
 
           - title: Lifetime 🚀
             descr: Hands down our best deal. Period.
-            price-p: 1949.99
+            price-p: 269.99
             price-s: Per month. Billed annually for $647.88.
             image: '/assets/svg/wordpress-free.svg'
             features:
@@ -128,7 +128,7 @@ premium:
         items:
           - title: Monthly
             descr: Most flexible, not cheapest.
-            price-p: 9.99
+            price-p: 24.99
             price-s: Per month. Billed monthly.
             features:
               title: All Mercado features
@@ -157,7 +157,7 @@ premium:
 
           - title: Annually
             descr: Same. But 25% less than monthly.
-            price-p: 7.99
+            price-p: 19.99
             price-s: Per month. Billed annually for $647.88.
             features:
               title: All Mercado features
@@ -186,7 +186,7 @@ premium:
 
           - title: Lifetime 🚀
             descr: Hands down our best deal. Period.
-            price-p: 1949.99
+            price-p: 719.99
             price-s: Per month. Billed annually for $647.88.
             image: '/assets/svg/wordpress-free.svg'
             features:
@@ -218,7 +218,7 @@ premium:
         items:
           - title: Monthly
             descr: Most flexible, not cheapest.
-            price-p: 9.99
+            price-p: 66.99
             price-s: Per month. Billed monthly.
             features:
               title: All Mercado features
@@ -247,7 +247,7 @@ premium:
 
           - title: Annually
             descr: Same. But 25% less than monthly.
-            price-p: 7.99
+            price-p: 53.99
             price-s: Per month. Billed annually for $647.88.
             features:
               title: All Mercado features
