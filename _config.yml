@@ -1,7 +1,7 @@
-title: Mercado
+title: Mercado Stack
 logo: /assets/images/logo.png
 email: your-email@example.com
-motto: Mercado is the best choice!
+motto: Mercado Stack is the best choice!
 description: >- # this means to ignore newlines until "baseurl:"
   A full stack Marketplace solution with all the stuff you need.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,6 +9,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
   matrix:
     output: false
+  compare:
+    output: true
 permalink: pretty
 
 # Build settings

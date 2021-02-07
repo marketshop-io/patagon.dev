@@ -1,0 +1,22 @@
+<div class="breadcrumb-navigation"> <a href="../">Compare ⇨</a>
+  <div class="dropdown"> <a role="button" class="dropdown-button active" id="compareBreadcrumbAlternatives"
+      data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">{{site.title}} vs.
+      {{page.name}} ⇩</a>
+    <div class="dropdown-menu" id="compare_dropdown_menu" aria-labelledby="compareBreadcrumbAlternatives" hidden>
+      {%- for i in site.compare -%}
+      <a class="dropdown-item" href="{{i.url}}">
+        <div><img src="{{i.image}}" alt="Logo of {{i.name}}" class="icon-alternative"></div>
+        <div>{{site.title}} vs. {{i.name}}</div>
+      </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<script>
+  const dropdown_btn = document.getElementById("compareBreadcrumbAlternatives");
+  const dropdown_menu = document.getElementById("compare_dropdown_menu");
+    dropdown_btn.onclick = () => {
+        dropdown_menu.toggleAttribute("hidden")
+      };
+</script>

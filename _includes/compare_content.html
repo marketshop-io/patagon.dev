@@ -1,0 +1,12 @@
+<article class="container">
+  <section class="alternative_intro">
+    <h1>{{page.title}}</h1>
+    <h6>{{page.subtitle}}</h6>
+    <p class="description">{{page.description}}</p>
+  </section>
+  <section class="content">
+    {%- include breadcrumb.html -%}
+    {%- include compare_alternative.html name=page.name -%}
+    {%- include cta.html -%}
+  </section>
+</article>

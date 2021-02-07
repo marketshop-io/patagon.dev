@@ -1,0 +1,25 @@
+{%- assign slug = include.name | slugify -%}
+{%- assign c = site.data.compares_data[slug] -%}
+<section class="comparsion">
+  <h2>{{c.title}}</h2>
+  <p class="description">{{c.description}}</p>
+  <div class="comparsion_table">
+    <div class="header">
+      <div class="blank"></div>
+      <div class="head">{{c.table_head1}}</div>
+      <div class="head">{{c.table_head2}}</div>
+    </div>
+    {%- for t in c.table -%}
+    <div class="row">
+      <div class="name">{{t.name}}</div>
+      <div class="val {{t.class1}}">{{t.val1}}</div>
+      <div class="val {{t.class2}}">{{t.val2}}</div>
+    </div>
+    {%- endfor -%}
+  </div>
+  <div class="hyperlinks">
+    {%- for l in c.links -%}
+      <a href="{{l.link}}">{{l.name}} ⇨</a>
+    {%- endfor -%}
+  </div>
+</section>

@@ -1,5 +1,7 @@
 ---
 layout: default
+name: SurveyMonkey
+image: "/assets/images/compare/surveymonkey.png"
 title: "A formidable Marketplace solution with all the standard functionalities."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
@@ -7,14 +9,4 @@ description: >
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
 ---
-<article class="container">
-  <section class="alternative_intro">
-    <h1>{{page.title}}</h1>
-    <h6>{{page.subtitle}}</h6>
-    <p class="description">{{page.description}}</p>
-  </section>
-  <section class="content">
-    {%- include comparsion.html -%}
-    {%- include cta.html -%}
-  </section>
-</article>
+{%- include compare_content.html -%}
