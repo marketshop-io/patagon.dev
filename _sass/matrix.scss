@@ -221,8 +221,11 @@
 }
 .matrix_grid {
   display: grid;
-  grid-template-columns: repeat(3, 47.8vw);
+  grid-template-columns: repeat(3, 45vw);
   padding: 0.75rem 0;
+  p {
+    font-size: 16px;
+  }
   @media (min-width: 600px) {
     & {
       grid-template-columns: repeat(3, 1fr);

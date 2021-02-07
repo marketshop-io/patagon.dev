@@ -8,8 +8,20 @@ body {
   }
   cursor: default;
   main {
-    margin-top: 90px;
+    margin-top: 40px;
     height: max-content;
+    @media (min-width: 576px) {
+      & {margin-top: 60px;}
+    }
+    @media (min-width: 768px) {
+      & {margin-top: 70px;}
+    }
+    @media (min-width: 992px) {
+      & {margin-top: 90px;}
+    }
+    @media (min-width: 1024px) {
+      & {margin-top: 120px;}
+    }
   }
   footer {
     .icon {
@@ -19,9 +31,8 @@ body {
   }
 
   .page_intro {
-    padding-top: 60px;
     h1 {
-      font-size: 60px;
+      font-size: 40px;
     }
     p {
       font-size: 20px;
