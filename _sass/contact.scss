@@ -49,3 +49,18 @@
 .mb-5 {
   margin-bottom: 5px;
 }
+.main {
+  background: #ddd;
+  width: 90%;
+  max-width: 800px;
+  margin: 10px auto;
+  .card {
+    color: $theme-color;
+    header {
+      font-size: 40px;
+    }
+    .body {
+      font-size: 24px;
+    }
+  }
+}
