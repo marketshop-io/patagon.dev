@@ -28,14 +28,12 @@ sit adipisci voluptatum minus omnis delectus."
       <!-- Submit -->
       <div class="g-recaptcha" data-sitekey="{{c.site_key}}" >
       </div>
-      <!-- <div class="g-recaptcha" data-netlify-recaptcha="true"> -->
-      </div>
       <input type="submit" class="button submit" value="{{c.button.title}}">
       </input>
     </div>
   </form>
 </article>
-<section class="thanks">
+<section class="thanks hidden">
   {%- assign th = site.data.thanks -%}
   <!-- Content -->
   <div class="container">
