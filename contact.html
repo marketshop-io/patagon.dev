@@ -4,15 +4,15 @@ title: Contact Us
 description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam aspernatur dicta earum voluptate
 sit adipisci voluptatum minus omnis delectus."
 ---
-<article class="compare">
-
+<article class="contact">
+  
+  {%- assign c = site.data.contact_form -%}
   <section class="alternative_intro page_intro container">
     <h1>{{page.title}}<br><span id="subtitle" </span></span></h1>
     <p>{{page.description}}</p>
   </section>
 
-  {%- assign c = site.data.contact_form -%}
-  <form name="contact" method="POST" data-netlify="true" class="contact_form">
+  <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="contact_form">
 
     {%- include form_inputs.html -%}
 
@@ -26,7 +26,7 @@ sit adipisci voluptatum minus omnis delectus."
 
     <div class="form_group mb-5 submit_box">
       <!-- Submit -->
-      <div class="g-recaptcha" data-sitekey="{{c.site_key}}">
+      <div class="g-recaptcha" data-sitekey="{{c.site_key}}" data-netlify-recaptcha="true" >
       </div>
       <input type="submit" class="button submit" value="{{c.button.title}}">
       </input>
