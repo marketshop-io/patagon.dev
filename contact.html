@@ -12,7 +12,7 @@ sit adipisci voluptatum minus omnis delectus."
     <p>{{page.description}}</p>
   </section>
 
-  <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="contact_form">
+  <form name="contact" method="POST" data-netlify="true" class="contact_form">
 
     {%- include form_inputs.html -%}
 
@@ -26,9 +26,9 @@ sit adipisci voluptatum minus omnis delectus."
 
     <div class="form_group mb-5 submit_box">
       <!-- Submit -->
-<!--       <div class="g-recaptcha" data-sitekey="{{c.site_key}}" data-netlify-recaptcha="true" >
-      </div> -->
-      <div class="g-recaptcha" data-netlify-recaptcha="true">
+      <div class="g-recaptcha" data-sitekey="{{c.site_key}}" >
+      </div>
+      <!-- <div class="g-recaptcha" data-netlify-recaptcha="true"> -->
       </div>
       <input type="submit" class="button submit" value="{{c.button.title}}">
       </input>
@@ -53,4 +53,4 @@ sit adipisci voluptatum minus omnis delectus."
     </div> <!-- / .row -->
   </div>
 </section>
-<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
