@@ -5,8 +5,8 @@
         </a>
         <nav id="nav_top" class="hidden_small">
             <ul>
-                {%- for i in site.data.navigation -%}
                 <li><a href="{{i.link}}">{{i.title}}</a></li>
+                {%- for i in site.data.navigation.items -%}
                 {%- endfor -%}
             </ul>
         </nav>

@@ -1,0 +1,161 @@
+backend:
+  name: github
+  repo: nmella/mercadostack
+#  name: git-gateway
+  branch: master # 
+media_folder: assets/images/
+public_folder: assets/images/
+publish_mode: editorial_workflow
+collections:
+  - label: Common parts
+    name: parts
+    files:
+
+      - name: navigation
+        label: Top navigation menu
+        file: _data/navigation.yml
+        fields:
+        - label: Navigation items
+          name: items
+          widget: list
+          fields:
+          - label: title,
+            name: title
+            widget: string
+          - label: link
+            name: link
+            widget: string
+            default: "#"
+
+      - name: footer
+        label: Footer
+        file:  _data/footer.yml
+        fields:
+        - name: top
+          label: Footer top
+          widget: list
+          fields:
+            - name: title
+              label: Column Title
+              widget: string
+            - name: items
+              label: Items
+              widget: list
+              fields:
+                - name: name_c
+                  label: Name
+                  widget: string
+                - name: link
+                  label: Link
+                  widget: string
+        - name: social
+          label: Social
+          widget: list
+          fields:
+            - name: icon
+              label: Icon
+              widget: string
+            - name: title
+              label: title
+              widget: string
+            - name: link
+              label: link
+              widget: string
+
+
+
+  - label: MercadoStack home page
+    name: homepage
+    files:
+
+      - name: home_mosaic
+        label: home mosaic
+        file: _data/home.yml
+        fields:
+
+        - label: Mosaic title
+          name: 'mosaic_title'
+          widget: 'string'
+          default: 
+
+        - label: Mosaic description
+          name: 'mosaic_descr'
+          widget: 'string'
+          default: 
+          required: false
+
+        - label: Mosaic link
+          name: 'mosaic_link'
+          widget: 'string'
+          default: 
+          required: false
+
+        - label: Mosaic text
+          name: 'mosaic_text'
+          widget: 'string'
+          default: 
+          required: false
+
+        - label: Mosaic table
+          name: 'mosaic'
+          widget: 'list'
+          fields:
+            - label: Row
+              name: row
+              widget: list
+              fields: 
+                - label: Title
+                  name: title
+                  widget: string
+                - label: link
+                  name: link
+                  widget: string
+                  default: "#"
+                - label: description
+                  name: descr
+                  widget: string
+                - label: image
+                  name: image
+                  widget: image
+
+      - name: CTA
+        label: Call to action
+        file: _data/cta.yml
+        fields:
+          - label: small
+            name: small
+            widget: string
+          - label: span
+            name: span
+            widget: string
+          - label: title
+            name: title
+            widget: string
+          - label: link
+            name: link
+            widget: string
+            default: "#"
+          - label: image
+            name: image
+            widget: image
+            default: /assets/images/cta.png
+          - label: l_title
+            name: l_title
+            widget: string
+
+  - name: posts
+    label: Posts
+    folder: /_posts/
+    create: true
+    media_folder: /assets/images/
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: image,          name: image,       widget: image, required: false }
+      - { label: description,    name: description, widget: string, default: , required: false }
+      - { label: slug,           name: slug,        widget: string, required: false }
+      - { label: Layout,         name: layout,      widget: string, default: post }
+      - { label: Title,          name: title,       widget: string }
+      - { label: Publish Date,   name: date,        widget: date, format: YYYY-MM-DD }
+      - { label: Tags,           name: tags,        widget: string, required: false }
+      - { label: Allow comments, name: comments,    widget: boolean, required: false, default: true }
+      - { label: Body,           name: body,        widget: markdown, required: false }

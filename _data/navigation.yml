@@ -1,12 +1,13 @@
-- title: Home
-  link: "/"
-- title: Compare
-  link: "/compare"
-- title: Features
-  link: "/features"
-- title: Blog
-  link: "/blog"
-- title: Prices
-  link: "/prices"
-- title: Contact
-  link: "/contact"
+items:
+  - title: Home
+    link: "/"
+  - title: Compare
+    link: "/compare"
+  - title: Features
+    link: "/features"
+  - title: Blog
+    link: "/blog"
+  - title: Prices
+    link: "/prices"
+  - title: Contact
+    link: "/contact"
