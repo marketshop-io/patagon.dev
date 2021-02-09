@@ -33,5 +33,22 @@ sit adipisci voluptatum minus omnis delectus."
     </div>
   </form>
 </article>
-{%- include thanks.html -%}
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<section class="thanks">
+  {%- assign th = site.data.thanks -%}
+  <!-- Content -->
+  <div class="container">
+    <div class="row align-items-center justify-content-between no-gutters" style="min-height: 50vh;">
+
+      <div class="col-12 p-8">
+        <!-- Heading -->
+        <h2 class="font-weight-bold text-center mb-2">
+          {{th.title}}
+        </h2>
+        <p class="text-center">{{th.message}}</p>
+
+      </div>
+
+    </div> <!-- / .row -->
+  </div>
+</section>
+<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
