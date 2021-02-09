@@ -1,63 +1,63 @@
 top: 
   - title: Mercado
     items:
-      - name: Product
+      - name_c: Product
         link: "#" 
-      - name: Features
+      - name_c: Features
         link: "#"
-      - name: Pricing
+      - name_c: Pricing
         link: "#"
-      - name: Platforms
+      - name_c: Platforms
         link: "#"
-      - name: Swap Typeform
+      - name_c: Swap Typeform
         link: "#"
   - title: Mercado
     items:
-      - name: Product
+      - name_c: Product
         link: "#" 
-      - name: Features
+      - name_c: Features
         link: "#"
-      - name: Pricing
+      - name_c: Pricing
         link: "#"
-      - name: Platforms
+      - name_c: Platforms
         link: "#"
-      - name: Swap Typeform
+      - name_c: Swap Typeform
         link: "#"
   - title: Mercado
     items:
-      - name: Product
+      - name_c: Product
         link: "#" 
-      - name: Features
+      - name_c: Features
         link: "#"
-      - name: Pricing
+      - name_c: Pricing
         link: "#"
-      - name: Platforms
+      - name_c: Platforms
         link: "#"
-      - name: Swap Typeform
+      - name_c: Swap Typeform
         link: "#"
   - title: Mercado
     items:
-      - name: Product
+      - name_c: Product
         link: "#" 
-      - name: Features
+      - name_c: Features
         link: "#"
-      - name: Pricing
+      - name_c: Pricing
         link: "#"
-      - name: Platforms
+      - name_c: Platforms
         link: "#"
-      - name: Swap Typeform
+      - name_c: Swap Typeform
         link: "#"
   - title: Mercado
     items:
-      - name: Product
+      - name_c: Product
         link: "#" 
-      - name: Features
+      - name_c: Features
         link: "#"
-      - name: Pricing
+      - name_c: Pricing
         link: "#"
-      - name: Platforms
+      - name_c: Platforms
         link: "#"
-      - name: Swap Typeform
+      - name_c: Swap Typeform
         link: "#"
 social:
   - icon: "social/ionicons_svg_logo-facebook.svg"
