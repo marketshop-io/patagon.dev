@@ -27,6 +27,31 @@ collections:
             widget: string
             default: "#"
 
+      - name: CTA
+        label: Call to action
+        file: _data/cta.yml
+        fields:
+          - label: small
+            name: small
+            widget: string
+          - label: span
+            name: span
+            widget: string
+          - label: title
+            name: title
+            widget: string
+          - label: link
+            name: link
+            widget: string
+            default: "#"
+          - label: image
+            name: image
+            widget: image
+            default: /assets/images/cta.png
+          - label: l_title
+            name: l_title
+            widget: string
+
       - name: footer
         label: Footer
         file:  _data/footer.yml
@@ -118,41 +143,13 @@ collections:
                   name: image
                   widget: string
 
-      - name: CTA
-        label: Call to action
-        file: _data/cta.yml
-        fields:
-          - label: small
-            name: small
-            widget: string
-          - label: span
-            name: span
-            widget: string
-          - label: title
-            name: title
-            widget: string
-          - label: link
-            name: link
-            widget: string
-            default: "#"
-          - label: image
-            name: image
-            widget: image
-            default: /assets/images/cta.png
-          - label: l_title
-            name: l_title
-            widget: string
 
-  - name: compares_data
-    label: compares data
-    folder: /_data/compares_data/
+  - name: compare
+    label: compare
+    folder: /_compare/
     create: true
-    slug: '{{slug}}.yml'
+    slug: '{{slug}}'
     fields:
-      - label: slug
-        name: slug
-        widget: string
-        required: false 
       - label: Title
         name: title
         widget: string
