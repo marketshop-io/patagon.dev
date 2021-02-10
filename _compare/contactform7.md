@@ -2,7 +2,7 @@
 layout: compare
 name: Contact Form 7
 image: "/assets/images/compare/contactform7.png"
-title: "A formidable Marketplace solution with all the standard functionalities."
+title: "A formidable Contact Form 7 alternative with more modern looks."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
   "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related

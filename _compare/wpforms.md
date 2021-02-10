@@ -2,7 +2,7 @@
 layout: compare
 name: WPForms
 image: "/assets/images/compare/wpforms.png"
-title: "A formidable Marketplace solution with all the standard functionalities."
+title: "A formidable WPForms alternative without the inescapable paywalls."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
   "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
