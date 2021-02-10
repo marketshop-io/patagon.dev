@@ -20,7 +20,7 @@
   </div>
   <div class="matrix_grid">
     {%- for cell in site.matrix -%}
-    {%- if t.table == cell.table -%}
+    {%- if t.compare_table == cell.compare_table -%}
     <div class="matrix_cell">
       {{cell | markdownify}}
     </div>

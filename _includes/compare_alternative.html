@@ -9,9 +9,9 @@
       <div class="head">{{c.table_head1}}</div>
       <div class="head">{{c.table_head2}}</div>
     </div>
-    {%- for t in c.table -%}
+    {%- for t in c.compare_table -%}
     <div class="row">
-      <div class="name">{{t.name}}</div>
+      <div class="name">{{t.title}}</div>
       <div class="val {{t.class1}}">{{t.val1}}</div>
       <div class="val {{t.class2}}">{{t.val2}}</div>
     </div>
@@ -19,7 +19,7 @@
   </div>
   <div class="hyperlinks">
     {%- for l in c.links -%}
-      <a href="{{l.link}}">{{l.name}} ⇨</a>
+      <a href="{{l.link}}">{{l.title}} ⇨</a>
     {%- endfor -%}
   </div>
 </section>
