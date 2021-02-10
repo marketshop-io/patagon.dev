@@ -11,6 +11,8 @@ collections:
     output: false
   compare:
     output: true
+  compares_data:
+    output: false
 permalink: pretty
 
 # Build settings

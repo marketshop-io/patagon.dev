@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="container">
+  <section class="alternative_intro">
+    <h1>{{page.title}}</h1>
+    <h6>{{page.subtitle}}</h6>
+    <p class="description">{{page.description}}</p>
+  </section>
+  <section class="content">
+    {%- include breadcrumb.html -%}
+    <section class="comparsion">
+      <h2>{{page.table_title}}</h2>
+      <p class="description">{{page.table_description}}</p>
+      <div class="comparsion_table">
+        <div class="header">
+          <div class="blank"></div>
+          <div class="head">{{page.table_head1}}</div>
+          <div class="head">{{page.table_head2}}</div>
+        </div>
+        {%- for t in page.compare_table -%}
+        <div class="row">
+          <div class="name">{{t.title}}</div>
+          <div class="val {{t.class1}}">{{t.val1}}</div>
+          <div class="val {{t.class2}}">{{t.val2}}</div>
+        </div>
+        {%- endfor -%}
+      </div>
+      <div class="hyperlinks">
+        {%- for l in page.links -%}
+        <a href="{{l.link}}">{{l.title}} ⇨</a>
+        {%- endfor -%}
+      </div>
+    </section>
+    {%- include cta.html -%}
+  </section>
+</article>
