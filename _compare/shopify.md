@@ -9,7 +9,6 @@ description: >
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
 table_title: Shopify  ⚔️  Mercado Stack
-image: "/assets/images/compare/shopify-bag.png"
 table_description: A quick comparison between Shopify and Mercado Stack.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
