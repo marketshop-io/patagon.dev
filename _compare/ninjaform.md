@@ -2,7 +2,7 @@
 layout: compare
 name: Ninja Forms
 image: "/assets/images/compare/ninjaforms.png"
-title: "A formidable Marketplace solution with all the standard functionalities."
+title: "A formidable Ninja Forms alternative and no countless add-ons."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
   "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
