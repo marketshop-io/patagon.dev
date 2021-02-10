@@ -116,7 +116,7 @@ collections:
                   widget: string
                 - label: image
                   name: image
-                  widget: image
+                  widget: string
 
       - name: CTA
         label: Call to action
@@ -142,6 +142,66 @@ collections:
           - label: l_title
             name: l_title
             widget: string
+
+  - name: compares_data
+    label: compares data
+    folder: /_data/compares_data/
+    create: true
+    slug: '{{slug}}.yml'
+    fields:
+      - label: slug
+        name: slug
+        widget: string
+        required: false 
+      - label: Title
+        name: title
+        widget: string
+      - label: description
+        name: description
+        widget: string
+        required: false
+      - label: table_head1
+        name: table_head1
+        widget: string
+        required: false
+      - label: table_head2
+        name: table_head2
+        widget: string
+        required: false
+
+      - label: compare table
+        name: compare_table
+        widget: list
+        fields: 
+          - name: title
+            title: title
+            widget: string
+          - name: val1
+            title: val1
+            widget: string
+            default: "No"
+          - name: val2
+            title: val2
+            widget: string
+            default: "Yes"
+          - name: class1
+            title: class1
+            widget: string
+          - name: class2
+            title: class2
+            widget: string
+
+      - name: links
+        label: links
+        widget: list
+        fields:
+          - name: title
+            label: title
+            widget: string
+          - name: link
+            label: link
+            widget: string
+
 
   - name: posts
     label: Posts
