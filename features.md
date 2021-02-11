@@ -2,10 +2,5 @@
 title: Features
 description: >
   <b>Mercado Stack comes in two versions.</b> Both are separate, full-blown Mercado Stack platforms with practically identical feature sets. For different users.
-layout: default
+layout: features
 ---
-<div class="container">
-  {%- include features_intro.html -%}
-  {%- include matrix.html -%}
-  {%- include cta.html -%}
-</div>

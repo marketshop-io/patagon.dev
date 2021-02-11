@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="compare container">
+  <section class="alternative_intro page_intro">
+    <h1>{{page.title}}<br><span id="subtitle" </span></span></h1>
+    <p>{{page.description}}</p>
+  </section>
+  <div class="compare_grid">
+    {%- for c in site.compare -%}
+    <a href="{{c.url}}">
+      <img src="{{c.image}}" alt="{{c.name}}">
+      <b>Compare to {{c.name}}</b>
+    </a>
+    {%- endfor -%}
+  </div>
+</article>

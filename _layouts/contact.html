@@ -1,11 +1,8 @@
 ---
-layout : default
-title: Contact Us
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam aspernatur dicta earum voluptate
-sit adipisci voluptatum minus omnis delectus."
+layout: default
 ---
 <article class="contact">
-  
+
   {%- assign c = site.data.contact_form -%}
   <section class="alternative_intro page_intro container">
     <h1>{{page.title}}<br><span id="subtitle" </span></span></h1>
@@ -20,13 +17,13 @@ sit adipisci voluptatum minus omnis delectus."
       <label for="{{c.textarea.name}}">
         {{c.textarea.caption}}
       </label>
-      <textarea name="{{c.textarea.name}}" class="form_control" id="{{c.textarea.name}}" name="{{c.textarea.name}}" rows="{{c.textarea.rows}}"
-        required minlength="3" placeholder="{{c.textarea.placeholder}}"></textarea>
+      <textarea name="{{c.textarea.name}}" class="form_control" id="{{c.textarea.name}}" name="{{c.textarea.name}}"
+        rows="{{c.textarea.rows}}" required minlength="3" placeholder="{{c.textarea.placeholder}}"></textarea>
     </div>
 
     <div class="form_group mb-5 submit_box">
       <!-- Submit -->
-      <div class="g-recaptcha" data-sitekey="{{c.site_key}}" >
+      <div class="g-recaptcha" data-sitekey="{{c.site_key}}">
       </div>
       <input type="submit" class="button submit" value="{{c.button.title}}">
       </input>
