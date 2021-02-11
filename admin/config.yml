@@ -244,7 +244,7 @@ collections:
     label: features table 3
     folder: /_matrix/table-03/
     create: true
-    slug: {{slug}}
+    slug: {{title}}
     media_folder: /assets/images/
     fields:
       - name: table
