@@ -208,6 +208,61 @@ collections:
     label: features table 1
     folder: /_matrix/table-01/
     create: true
+    slug: {{slug}}
+    media_folder: /assets/images/
+    fields:
+      - name: table
+        label: features table number
+        widget: string
+      - name: title
+        label: table-row-col
+        widget: string
+        required: false
+      - name: body
+        label: body
+        widget: markdown
+        required: false
+  - name: features
+    label: features table 2
+    folder: /_matrix/table-02/
+    create: true
+    slug: {{slug}}
+    media_folder: /assets/images/
+    fields:
+      - name: table
+        label: features table number
+        widget: string
+      - name: title
+        label: table-row-col
+        widget: string
+        required: false
+      - name: body
+        label: body
+        widget: markdown
+        required: false
+  - name: features
+    label: features table 3
+    folder: /_matrix/table-03/
+    create: true
+    slug: {{slug}}
+    media_folder: /assets/images/
+    fields:
+      - name: table
+        label: features table number
+        widget: string
+      - name: title
+        label: table-row-col
+        widget: string
+        required: false
+      - name: body
+        label: body
+        widget: markdown
+        required: false
+  - name: features
+    label: features table 4
+    folder: /_matrix/table-04/
+    create: true
+    slug: {{slug}}
     media_folder: /assets/images/
     fields:
       - name: table
