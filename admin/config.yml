@@ -204,7 +204,7 @@ collections:
         required: false
 
 # features page
-  - name: features
+  - name: features-table-1
     label: features table 1
     folder: /_matrix/table-01/
     create: true
@@ -221,7 +221,7 @@ collections:
         label: body
         widget: markdown
         required: false
-  - name: features
+  - name: features-table-2
     label: features table 2
     folder: /_matrix/table-02/
     create: true
@@ -238,7 +238,7 @@ collections:
         label: body
         widget: markdown
         required: false
-  - name: features
+  - name: features-table-3
     label: features table 3
     folder: /_matrix/table-03/
     create: true
@@ -255,7 +255,7 @@ collections:
         label: body
         widget: markdown
         required: false
-  - name: features
+  - name: features-table-4
     label: features table 4
     folder: /_matrix/table-04/
     create: true
