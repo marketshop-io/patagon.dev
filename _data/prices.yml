@@ -34,7 +34,7 @@ premium:
   descr: The free WordPress plugin is a fullblown form solution. On top of that, you can boost it with premium upgrades. <b>Upgrades are per plugin and charged recurringly</b>, except for the Lifetime Deal 🚀.
   plans:
     - item: 
-        name: Single site
+        title: Single site
         items:
           - title: Monthly
             descr: Most flexible, not cheapest.
@@ -124,7 +124,7 @@ premium:
                 - item: <m>❌</m> Slack notifications<sup>1</sup>
                 - item: <m>❌</m> Multisite installations<sup>1</sup>
     - item: 
-        name: 5-sites
+        title: 5-sites
         items:
           - title: Monthly
             descr: Most flexible, not cheapest.
@@ -214,7 +214,7 @@ premium:
                 - item: <m>❌</m> Slack notifications<sup>1</sup>
                 - item: <m>❌</m> Multisite installations<sup>1</sup>
     - item: 
-        name: Unlimited
+        title: Unlimited
         items:
           - title: Monthly
             descr: Most flexible, not cheapest.

@@ -27,6 +27,57 @@ collections:
             name: link
             widget: string
             default: "#"
+# contact form
+      - name: contact_form
+        label: Contact Form
+        file: _data/contact_form.yml
+        fields:
+          - label: inputs
+            name: inputs
+            widget: list
+            fields:
+            - label: name
+              name: name
+              widget: string
+            - label: caption
+              name: caption
+              widget: string
+            - label: placeholder
+              name: placeholder
+              widget: string
+            - label: required
+              name: required
+              widget: string
+            - label: type
+              name: type
+              widget: string
+            - label: order
+              name: order
+              widget: string
+          - label: textarea
+            name: textarea
+            widget: object
+            fields:
+            - label: caption
+              name: caption
+              widget: string
+            - label: placeholder
+              name: placeholder
+              widget: string
+            - label: name
+              name: name
+              widget: string
+            - label: rows
+              name: rows
+              widget: number
+          - label: button
+            name: button
+            widget: string
+          - label: site_key
+            name: site_key
+            widget: string
+              
+
 # call yo action
       - name: CTA
         label: Call to action
@@ -357,8 +408,15 @@ collections:
                       label: color
                       widget: string
                       required: false
- 
-           
+
+                  - name: list
+                    label: list
+                    widget: list
+                    fields:
+                  
+                    - name: item
+                      label: item
+                      widget: string
 
 # features page
   - name: features-matrix

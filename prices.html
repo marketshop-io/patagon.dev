@@ -52,9 +52,9 @@ removing Mercado branding. There’s even an LTD 🚀!"
       <ul class="carousel-buttons">
         {%- for i in p.premium.plans -%}
         {%- if forloop.first -%}
-          <li class="active slide_btn" data-slide="s1">{{i.item.name}}</li>
+          <li class="active slide_btn" data-slide="s1">{{i.item.title}}</li>
           {%- else -%}
-          <li class="slide_btn" data-slide="s{{forloop.index}}">{{i.item.name}}</li>
+          <li class="slide_btn" data-slide="s{{forloop.index}}">{{i.item.title}}</li>
         {%- endif -%}
         {%- endfor -%}
       </ul>
