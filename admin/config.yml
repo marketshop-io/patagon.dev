@@ -145,7 +145,7 @@ collections:
 
 # compare pages
   - name: compare
-    label: compare
+    label: compare pages data
     folder: /_compare/
     create: true
     slug: '{{slug}}'
@@ -203,7 +203,141 @@ collections:
         widget: markdown
         required: false
 
+# prices page
+  - name: prices
+    label: prices
+    files:
+    - file: _data/prices.yml
+      name: prices
+      label: prices
+      media_folder: /assets/images/
+      fields:
+      - name: free
+        label: free plan
+        widget: object
+        fields: 
+          - name: title
+            label: title
+            widget: string
+          - name: descr
+            label: descr
+            widget: text
+          - name: span
+            label: span
+            widget: string
+          - name: image
+            label: image
+            widget: string
+          - name: features
+            label: features
+            widget: object
+            fields:
+              - name: title
+                label: title
+                widget: string
+              - name: link
+                label: link
+                widget: string
+              - label: button
+                name: button
+                widget: object
+                fields: 
+                  - name: title
+                    label: title
+                    widget: string
+                  - name: link
+                    label: link
+                    widget: string
+                  - name: color
+                    label: color
+                    widget: string
+                    required: false
+              - label: after
+                name: after
+                widget: object
+                required: false
+                fields: 
+                  - name: title
+                    label: title
+                    widget: string
+                  - name: link
+                    label: link
+                    widget: string
+                  - name: text
+                    label: text
+                    widget: string
+              - label: list
+                name: list
+                widget: list
+                fields:
+                - name: item
+                  label: item
+                  widget: string
+
+          
+      - name: hiperlinks
+        label: hiperlinks
+        widget: list
+        fields: 
+          - name: title
+            label: title
+            widget: string
+          - name: link
+            label: link
+            widget: string
+
 # features page
+  - name: features-matrix
+    label: features matrix
+    files:
+    - file: /_data/matrix.yml
+      name: matrix
+      label: matrix
+      media_folder: /assets/images/
+      fields:
+      - name: feature_image
+        label: image
+        widget: string
+      - name: tip
+        label: tip
+        widget: string
+      - name: cards
+        label: cards
+        widget: list
+        fields: 
+          - name: title
+            label: title
+            widget: string
+          - name: text
+            label: text
+            widget: string
+          - name: link
+            label: link
+            widget: string
+          - name: headline
+            label: headline
+            widget: string
+      - name: cta
+        label: call to actions
+        widget: list
+        fields:
+          - name: title
+            label: title
+            widget: string
+          - name: link
+            label: link
+            widget: string
+      - name: matrix
+        label: matrix tables list
+        widget: list
+        fields:
+          - name: title
+            label: title
+            widget: string
+          - name: table
+            label: table number
+            widget: string
+
   - name: features-table-1
     label: features table 1
     folder: /_matrix/table-01/

@@ -15,15 +15,15 @@ free:
       link: "#premium"
       text: premium upgrades
     list:
-      - <l>✔️</l> Unlimited forms
-      - <l>✔️</l> Unlimited logic
-      - <l>✔️</l> Unlimited questions
-      - <l>✔️</l> Unlimited responses
-      - <m>❌</m> Single-site installation
-      - <m>❌</m> Removable Mercado branding<sup>1</sup>
-      - <m>❌</m> Webhooks<sup>1</sup>
-      - <m>❌</m> Slack notifications<sup>1</sup>
-      - <m>❌</m> Multisite installations<sup>1</sup>
+      - item: <l>✔️</l> Unlimited forms
+      - item: <l>✔️</l> Unlimited logic
+      - item: <l>✔️</l> Unlimited questions
+      - item: <l>✔️</l> Unlimited responses
+      - item: <m>❌</m> Single-site installation
+      - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+      - item: <m>❌</m> Webhooks<sup>1</sup>
+      - item: <m>❌</m> Slack notifications<sup>1</sup>
+      - item: <m>❌</m> Multisite installations<sup>1</sup>
 hiperlinks:
   - title: See premium upgrades ↓
     link: "#premium"
@@ -55,15 +55,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
 
           - title: Annually
             descr: Same. But 25% less than monthly.
@@ -84,15 +84,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
 
           - title: Lifetime 🚀
             descr: Hands down our best deal. Period.
@@ -114,15 +114,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
     - item: 
         name: 5-sites
         items:
@@ -145,15 +145,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
 
           - title: Annually
             descr: Same. But 25% less than monthly.
@@ -174,15 +174,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
 
           - title: Lifetime 🚀
             descr: Hands down our best deal. Period.
@@ -204,15 +204,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
     - item: 
         name: Unlimited
         items:
@@ -235,15 +235,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
 
           - title: Annually
             descr: Same. But 25% less than monthly.
@@ -264,15 +264,15 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
 
           - title: Lifetime 🚀
             descr: Hands down our best deal. Period.
@@ -294,12 +294,12 @@ premium:
                   link: "#unlimit"
                   text: unlimit
               list:
-                - <l>✔️</l> Unlimited forms
-                - <l>✔️</l> Unlimited logic
-                - <l>✔️</l> Unlimited questions
-                - <l>✔️</l> Unlimited responses
-                - <m>❌</m> Single-site installation
-                - <m>❌</m> Removable Mercado branding<sup>1</sup>
-                - <m>❌</m> Webhooks<sup>1</sup>
-                - <m>❌</m> Slack notifications<sup>1</sup>
-                - <m>❌</m> Multisite installations<sup>1</sup>
+                - item: <l>✔️</l> Unlimited forms
+                - item: <l>✔️</l> Unlimited logic
+                - item: <l>✔️</l> Unlimited questions
+                - item: <l>✔️</l> Unlimited responses
+                - item: <m>❌</m> Single-site installation
+                - item: <m>❌</m> Removable Mercado branding<sup>1</sup>
+                - item: <m>❌</m> Webhooks<sup>1</sup>
+                - item: <m>❌</m> Slack notifications<sup>1</sup>
+                - item: <m>❌</m> Multisite installations<sup>1</sup>
