@@ -1,28 +1,6 @@
 ---
-layout: blog
 title : Blog
+layout: blog
 description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illo impedit labore tempora reprehenderit
 iste aliquid doloremque nam debitis nisi!"
 ---
-<article class="blog container">
-  <section class="alternative_intro page_intro">
-    <h1>{{page.title}}</h1>
-    <p>{{page.description}}</p>
-  </section>
-  <ul class="post_list">
-    {%- for p in site.posts -%}
-    <li class="post_item">
-      <div class="image">
-        <img src="{{p.image}}" alt="{{p.title}}">
-      </div>
-      <div class="text">
-        <a href="{{p.url}}">
-          <h2>{{p.title}}</h2>
-          <small>{{p.date | date: "%b %d, %Y" }}</small>
-        </a>
-        <p>{{p.excerpt | truncatewords: 50}} ...</p>
-      </div>
-    </li>
-    {%- endfor -%}
-  </ul>
-</article>
