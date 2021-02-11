@@ -7,10 +7,11 @@ media_folder: assets/images/
 public_folder: assets/images/
 publish_mode: editorial_workflow
 collections:
+# common pages parts
   - label: Common parts
     name: parts
     files:
-
+# top navigation menu
       - name: navigation
         label: Top navigation menu
         file: _data/navigation.yml
@@ -26,7 +27,7 @@ collections:
             name: link
             widget: string
             default: "#"
-
+# call yo action
       - name: CTA
         label: Call to action
         file: _data/cta.yml
@@ -51,7 +52,7 @@ collections:
           - label: l_title
             name: l_title
             widget: string
-
+# footer
       - name: footer
         label: Footer
         file:  _data/footer.yml
@@ -87,8 +88,7 @@ collections:
               label: link
               widget: string
 
-
-
+# homepage
   - label: MercadoStack home page
     name: homepage
     files:
@@ -143,7 +143,7 @@ collections:
                   name: image
                   widget: string
 
-
+# compare pages
   - name: compare
     label: compare
     folder: /_compare/
@@ -198,8 +198,27 @@ collections:
           - name: link
             label: link
             widget: string
+      - name: body
+        label: body
+        widget: markdown
+        required: false
 
+# features page
+  - name: features
+    label: features table 1
+    folder: /_matrix/table-01/
+    create: true
+    media_folder: /assets/images/
+    fields:
+      - name: table
+        label: features table number
+        widget: string
+      - name: body
+        label: body
+        widget: markdown
+        required: false
 
+# posts
   - name: posts
     label: Posts
     folder: /_posts/
