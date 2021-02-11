@@ -28,7 +28,7 @@ removing Mercado branding. There’s even an LTD 🚀!"
         <ul class="pricing-features">
           <li><a href="{{p.free.features.link}}"></a><b>{{p.free.features.title}}</b></li>
           {%- for i in p.free.features.list -%}
-          <li>{{i}}</li>
+          <li>{{i.item}}</li>
           {%- endfor -%}
         </ul>
         <a href="{{p.free.features.button.link}}" class="button bgblue">{{p.free.features.button.title}}</a>
@@ -74,7 +74,7 @@ removing Mercado branding. There’s even an LTD 🚀!"
             <ul class="pricing-features">
               <li><b>{{sp.features.title}}</b></li>
               {%- for i in sp.features.list -%}
-              <li>{{i}}</li>
+              <li>{{i.item}}</li>
               {%- endfor -%}
             </ul>
             {%- if forloop.last -%}

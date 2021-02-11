@@ -274,7 +274,6 @@ collections:
                   label: item
                   widget: string
 
-          
       - name: hiperlinks
         label: hiperlinks
         widget: list
@@ -285,6 +284,81 @@ collections:
           - name: link
             label: link
             widget: string
+
+      - name: premium
+        label: Premium plans
+        widget: object
+        fields:
+
+          - name: title
+            label: title
+            widget: string
+          - name: descr
+            label: descr
+            widget: text
+          - name: plans
+            label: plans
+            widget: list
+            fields:
+
+            - name: item
+              label: item
+              widget: object
+              fields:
+
+              - name: name
+                label: name
+                widget: string
+
+              - name: items
+                label: items
+                widget: list
+                fields:
+
+                - name: title
+                  label: title
+                  widget: string
+                - name: descr
+                  label: descr
+                  widget: string
+                - name: price-p
+                  label: price-p
+                  widget: string
+                - name: price-s
+                  label: price-s
+                  widget: string
+                - name: features
+                  label: features
+                  widget: object
+                  fields:
+                  
+                  - name: title
+                    label: title
+                    widget: string
+
+                  - name: link
+                    label: link
+                    widget: string
+
+                  - name: button
+                    label: button
+                    widget: object
+                    fields:
+                  
+                    - name: title
+                      label: title
+                      widget: string
+  
+                    - name: link
+                      label: link
+                      widget: string
+  
+                    - name: color
+                      label: color
+                      widget: string
+                      required: false
+ 
+           
 
 # features page
   - name: features-matrix
