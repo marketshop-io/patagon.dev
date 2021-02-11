@@ -213,6 +213,10 @@ collections:
       - name: table
         label: features table number
         widget: string
+      - name: title
+        label: table-row-col
+        widget: string
+        required: false
       - name: body
         label: body
         widget: markdown
