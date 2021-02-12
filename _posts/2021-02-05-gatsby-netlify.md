@@ -1,6 +1,6 @@
 ---
 layout: post
-image: "/assets/images/hero1.svg"
+image: "/assets/images/heronew.svg"
 title: Gatsby + Netlify CMS Starter
 description: Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template
 ---
