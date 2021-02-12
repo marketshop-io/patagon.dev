@@ -1,14 +1,14 @@
-mosaic_title: <span>Enter Mercado Stack.</span>  Wake-up call for form tool dinosaurs.
-mosaic_descr: We merged the best of SurveyMonkey, Typeform and Landbot into a single conversational solution with innovative features to let you build personable forms and surveys for all your audiences to <strong>boost completion rates for better insights</strong>.
+mosaic_title: <span>Mercado Stack Commerce.</span>  Top-notch ecommerce platform.
+mosaic_descr: Fully integrated ecommerce platform, with all the <strong>real system requirements</strong> to start a business. <strong>For mid and big size Companies.</strong>
 mosaic_link: "#"
 mosaic_text: Take the product tour 
 mosaic:
   - row:
-    - title: Assistive Storyboard
+    - title: Multi-Vendor
       link: "#"
       bgcolor:
       descr: Build forms and surveys like flowcharts.
-      image: 1.svg
+      image: vendors.svg
     - title: Data Storage Freedom
       link: "#"
       bgcolor:
