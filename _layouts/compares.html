@@ -3,8 +3,13 @@ layout: default
 ---
 <article class="compare container">
   <section class="alternative_intro page_intro">
-    <h1>{{page.title}}<br><span id="subtitle" </span></span></h1>
+    <h1>{{page.title}}<br>
+      {%- for s in site.compare -%}
+      <span{% if forloop.index != 1 %} class="hidden"{% endif %}>{{s.name}}</span>
+      {%- endfor -%}
+    </h1>
     <p>{{page.description}}</p>
+
   </section>
   <div class="compare_grid">
     {%- for c in site.compare -%}
@@ -15,3 +20,17 @@ layout: default
     {%- endfor -%}
   </div>
 </article>
+
+<script>
+  const slides = document.querySelectorAll(".page_intro h1 span");
+  const count = slides.length;
+  const delay = 5000;
+  let i = 0;
+  setInterval(function () { 
+    slides.forEach((el) => {
+      el.classList.add("hidden")
+    })
+    i == count-1 ? i = 0 : i++;
+    slides[i].classList.remove("hidden")
+  }, delay);
+</script>
