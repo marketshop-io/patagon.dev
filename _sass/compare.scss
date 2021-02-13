@@ -81,3 +81,28 @@
     }
   }
 }
+// Compares title animation
+@keyframes title {
+  0% {opacity: 0;}
+  20% {opacity: 0.8;}
+  50% {opacity: 1;}
+  80% {opacity: 0.8;}
+  100% {opacity: 0;}
+}
+.compare .page_intro h1 span {
+  animation-name: title;
+  animation-duration: 05s;
+  color: $blue;
+}
+@media (min-width: 768px) {
+  .compare .alternative_intro {
+    * { max-width: 100%; }
+    p { max-width: 75%; }
+  }
+}
+@media (min-width: 992px) {
+  .compare .alternative_intro {
+    * { max-width: 100%; }
+    p { max-width: 67%; }
+  }
+}
