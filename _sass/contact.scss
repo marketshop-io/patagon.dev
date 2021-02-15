@@ -1,3 +1,9 @@
+.contact {
+  padding-top: 40px;
+    @media (min-width: 992px) {
+      & {padding-top: 10px;}
+    }
+}
 .contact_form {
   margin: 40px auto 100px;
   padding: 20px 10px;
