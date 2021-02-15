@@ -1,17 +1,17 @@
 ---
 layout: compare
-name: WPForms
-image: "/assets/images/compare/wpforms.png"
-title: "A formidable WPForms alternative without the inescapable paywalls."
+name: JumpSeller
+image: "/assets/images/compare/jumpseller.png"
+title: "A formidable Jump Seller alternative with better looks and brains."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
+  "We admit Mercado Stack isn't as polished as Jump Seller yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
-table_title: WPForms  ⚔️  Mercado Stack
+table_title: Google Forms  ⚔️  Mercado Stack
 table_description: A quick comparison between Shopify and Mercado Stack.
 table_head1: >
-  <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
+  <img src="/assets/images/compare/jumpseller.png" alt="Logo"><span></span>
 table_head2: >
   <img src="/assets/images/logo.png" alt="Logo"><span></span>
 compare_table:

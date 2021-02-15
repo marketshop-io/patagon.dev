@@ -1,14 +1,14 @@
 ---
 layout: compare
-name: Contact Form 7
-image: "/assets/images/compare/contactform7.png"
-title: "A formidable Contact Form 7 alternative with more modern looks."
+name: Shuup
+image: "/assets/images/compare/shuup.png"
+title: "A formidable Shuup alternative without the inescapable paywalls."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
+  "We admit Mercado Stack isn't as polished as Shuup yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
-table_title: Contact Form 7  ⚔️  Mercado Stack
+table_title: WPForms  ⚔️  Mercado Stack
 table_description: A quick comparison between Shopify and Mercado Stack.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>

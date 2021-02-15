@@ -1,14 +1,14 @@
 ---
 layout: compare
-name: SurveyMonkey
-image: "/assets/images/compare/surveymonkey.png"
-title: "A formidable SurveyMonkey alternative with everything included out of the box."
+name: Magento
+image: "/assets/images/compare/landbot.png"
+title: "A formidable Magento alternative, including crucial logic features."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
   "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
-table_title: SurveyMonkey  ⚔️  Mercado Stack
+table_title: Magento  ⚔️  Mercado Stack
 table_description: A quick comparison between Shopify and Mercado Stack.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>

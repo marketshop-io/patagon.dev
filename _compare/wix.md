@@ -1,14 +1,14 @@
 ---
 layout: compare
-name: JotForm
-image: "/assets/images/compare/jotform.png"
-title: A formidable JotForm alternative without its inevitable limitations."
+name: Wix
+image: "/assets/images/compare/wix.png"
+title: "A formidable Wix alternative with everything included out of the box."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
+  "We admit Mercado Stack isn't as polished as Wix yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
-table_title: JtForm  ⚔️  Mercado Stack
+table_title: SurveyMonkey  ⚔️  Mercado Stack
 table_description: A quick comparison between Shopify and Mercado Stack.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>

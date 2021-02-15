@@ -1,14 +1,14 @@
 ---
 layout: compare
-name: Google Forms
-image: "/assets/images/compare/googleforms.png"
-title: "A formidable Google Forms alternative with better looks and brains."
+name: WooCommerce
+image: "/assets/images/compare/woocommerce.png"
+title: "A formidable Woocommerce alternative and no countless add-ons."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
+  "We admit Mercado Stack isn't as polished as WooCommerce yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
-table_title: Google Forms  ⚔️  Mercado Stack
+table_title: Ninja Forms  ⚔️  Mercado Stack
 table_description: A quick comparison between Shopify and Mercado Stack.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
