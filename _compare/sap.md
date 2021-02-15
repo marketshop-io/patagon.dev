@@ -1,11 +1,11 @@
 ---
 layout: compare
-name: Typeform
-image: "/assets/images/compare/typeform.png"
-title: "A formidable Typeform alternative without the annoying paywalls."
+name: SAP Hybris
+image: "/assets/images/compare/sap.png"
+title: "A formidable SAP Hybris alternative without the annoying paywalls."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
+  "We admit Mercado Stack isn't as polished as SAP Hybris yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
 table_title: Typeform  ⚔️  Mercado Stack

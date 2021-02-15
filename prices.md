@@ -2,5 +2,5 @@
 title : Prices
 layout : prices
 description: >
-  The <b>standard WordPress plugin is completely free.</b> We offer premium upgrades for select features and removing Mercado branding. There’s even an LTD 🚀!
+  The <b>DIY (Do It YourSelf) versión is full automated to start inmediatelly.</b> We offer the Enterprice alternative for mid-size Companies 🚀!
 ---

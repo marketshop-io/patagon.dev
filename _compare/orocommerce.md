@@ -1,11 +1,11 @@
 ---
 layout: compare
-name: Magento
-image: "/assets/images/compare/landbot.png"
-title: "A formidable Magento alternative, including crucial logic features."
+name: Oro Commerce
+image: "/assets/images/compare/oro.png"
+title: "A formidable Oro Commerce alternative, including crucial logic features."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit Mercado Stack isn't as polished as Shopify yet, but it offers all and more functionalities related
+  "We admit Mercado Stack isn't as polished as Oro Commerce yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
   a try and tell us what you think?</b>"
 table_title: Magento  ⚔️  Mercado Stack
