@@ -2,5 +2,5 @@
 title : Blog
 layout: blog
 description: >
-  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illo impedit labore tempora reprehenderit iste aliquid doloremque nam debitis nisi!"
+  "Hi there ! Here you will find out what are we doing, where are we going and what is this Mercado Stack platform about."
 ---
