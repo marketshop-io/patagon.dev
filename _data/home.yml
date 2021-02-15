@@ -9,7 +9,7 @@ mosaic:
       bgcolor:
       descr: Native Marketplace Solution. Multi-Seller ready.
       image: vendors2.svg
-    - title: Single Sign On (SSO) Ready
+    - title: Single Sign On (SSO) 
       link: "#"
       bgcolor:
       descr: Integrated with Keycloak SSO (OpenSource). Have your users authenticated just once !
@@ -17,19 +17,19 @@ mosaic:
     - title: HelpDesk Ready !
       link: "#"
       bgcolor:
-      descr: Integrated with Zammad OpenSource HelpDesk systema. Escalate your support professionally.
+      descr: Integrated with Zammad OpenSource HelpDesk system. Escalate your support professionally.
       image: support.svg
   - row:
     - title: Newsletter Ready !
       link: "#"
       bgcolor:
-      descr: Integrated Amazon SES. Send 1 million emails at no extra cost. 
+      descr: Integrated with Amazon SES. Send 1 million emails at no extra cost. 
       image: newsletter.svg
     - title: Automated RMA Process 
       link: "#"
       bgcolor:
       descr: Let your customers request product returns with automatic Shipment generation.
-      image: rma.svg
+      image: shipping.svg
   - row:
     - title: API Integrations
       link: "#"
