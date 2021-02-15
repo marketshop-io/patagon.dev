@@ -7,34 +7,34 @@ mosaic:
     - title: Multi-Vendor
       link: "#"
       bgcolor:
-      descr: Build forms and surveys like flowcharts.
+      descr: Native Marketplace Solution. Multi-Seller ready.
       image: vendors2.svg
-    - title: Data Storage Freedom
+    - title: Single Sign On (SSO) Ready
       link: "#"
       bgcolor:
-      descr: Store things at Mercado or self-host whatever you like. Hello GDPR!
-      image: 2.svg
-    - title: Convertible Form Faces
+      descr: Integrated with Keycloak SSO (OpenSource). Have your users authenticated just once !
+      image: login.svg
+    - title: HelpDesk Ready !
       link: "#"
       bgcolor:
-      descr: Present as a classic form, chat or Typeform-like interaction.
-      image: customization.svg
+      descr: Integrated with Zammad OpenSource HelpDesk systema. Escalate your support professionally.
+      image: support.svg
   - row:
-    - title: Flexible Publication
+    - title: Newsletter Ready !
       link: "#"
       bgcolor:
-      descr: Share a simple link or embed deeply.
-      image: 4.svg
-    - title: Conversational Logic Types
+      descr: Integrated Amazon SES. Send 1 million emails at no extra cost. 
+      image: newsletter.svg
+    - title: Automated RMA Process 
       link: "#"
       bgcolor:
-      descr: Create seriously conversational flows with logic, actions and calculations. No code, guaranteed.
-      image: 5.svg
+      descr: Let your customers request product returns with automatic Shipment generation.
+      image: rma.svg
   - row:
-    - title: Active Integrations
+    - title: API Integrations
       link: "#"
       bgcolor:
-      descr: Automate things smartly.
+      descr: Integrate easily with your Legacy systems.
       image: 6.svg
     - title: And more...
       link: "#"
