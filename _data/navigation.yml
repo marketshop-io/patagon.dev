@@ -1,10 +1,10 @@
 items:
   - title: Home
     link: "/"
-  - title: Compare
-    link: "/compare"
   - title: Features
     link: "/features"
+  - title: Compare
+    link: "/compare"
   - title: Blog
     link: "/blog"
   - title: Prices

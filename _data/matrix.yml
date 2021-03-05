@@ -4,18 +4,18 @@ cards:
   - title: DIY
     text : Mercado Stack Do It Yourself
     button: Start building now
-    link: "#"
+    link: "/contact"
     headline: Start Now
   - title: Enterprise
     text : Mercado Stack within your ERP
     button: Start building now
-    link: "#"
+    link: "/contact"
     headline: Contact Us
 cta:
   - title: Deploy Marketplace Stack
-    link: "#"
+    link: "/contact"
   - title: 	Contact us
-    link: "#"
+    link: "/contact"
 matrix:
   - title: Summary
     table: "01"
