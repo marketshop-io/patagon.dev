@@ -7,13 +7,7 @@ $(document).ready(function() {
 		apiKey = $form.data("api_key")
 		list = $form.data("list")
 		url = $form.attr('action');
-		d = {
-      email: email,
-      api_key: apiKey,
-      list: list,
-      boolean: true,
-    };
-		console.log(d)
+
 		$.post(
       url,
       {
