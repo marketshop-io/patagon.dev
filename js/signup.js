@@ -33,6 +33,7 @@ $(document).ready(function() {
           } else {
             $("#status").text("You're subscribed!");
             $("#status").css("color", "green");
+            window.location = "/thanks/"; 
           }
         } else {
           alert("Sorry, unable to subscribe. Please try again later!");
