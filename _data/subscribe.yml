@@ -1,6 +1,8 @@
-action     : "#"
+action     : "https://ses.mercadoempresas.cl/subscribe"
 method     : post
 placeholder: Type your email for updates
 target     : _blank
 label      : Email address to subscribe
-unsubscribe: "#"
+unsubscribe: "http://your_sendy_installation/unsubscribe"
+api_key    : Rokg2q8PUGi1rTCe2IFe
+list       : 8ALQIt9YQCMtVtUe3Zivvg
