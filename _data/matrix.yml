@@ -2,12 +2,12 @@ feature_image: "/assets/images/matrix.svg"
 tip: Corporative Integrations
 cards:
   - title: DIY
-    text : Mercado Stack Do It Yourself
+    text : Market Shop Do It Yourself
     button: Start building now
     link: "/contact"
     headline: Start Now
   - title: Enterprise
-    text : Mercado Stack within your ERP
+    text : Market Shop within your ERP
     button: Start building now
     link: "/contact"
     headline: Contact Us
