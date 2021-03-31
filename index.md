@@ -1,7 +1,7 @@
 ---
 title: Marketplace Commerce
 description: >
-  <b>MarketShop comes in two versions.</b> Both are separate, full-blown MarketShop platforms with practically identical feature sets. For different type of Companies.
+  <b>Market Shop is an Ecommerce Marketplace solution.</b> Similar to Magento, but with native multi-Vendor, multi-Warehouse solution. And <b> it is fast</b>. Plus, it is easy to customize.
 layout: home
 ---
 
