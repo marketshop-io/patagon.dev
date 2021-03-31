@@ -19,7 +19,7 @@ layout : default
       <div class="right">
         <div class="pricing-price-prefix">
           <div class="valuta">$</div>
-          <div class="amount">299</div>
+          <div class="amount">999</div>
           <div class="decimals">.00</div>
         </div>
         <ul class="pricing-features">
@@ -41,51 +41,6 @@ layout : default
       </li>
       {%- endfor -%}
     </ul>
-  </section>
-  <section class="premium_content" id="premium">
-    <div class="alternative_intro">
-      <h2>{{p.premium.title}}</h2>
-      <p>{{p.premium.descr}}</p>
-    </div>
-    <div class="carousel">
-      <ul class="carousel-buttons">
-        {%- for i in p.premium.plans -%}
-        {%- if forloop.first -%}
-        <li class="active slide_btn" data-slide="s1">{{i.item.title}}</li>
-        {%- else -%}
-        <li class="slide_btn" data-slide="s{{forloop.index}}">{{i.item.title}}</li>
-        {%- endif -%}
-        {%- endfor -%}
-      </ul>
-      <div class="slides" id="slides">
-        {%- for slide in p.premium.plans -%}
-        <div class="slide">
-          {%- for sp in slide.item.items -%}
-          <div class="col col-{{forloop.index}}">
-            <h3>{{sp.title}}</h3>
-            <p>{{sp.descr}}</p>
-            {%- assign pa = sp.price-p | split: '.' -%}
-            <div class="pricing-price-prefix">
-              <div class="valuta">$</div>
-              <div class="amount">{{pa[0]}}</div>
-              <div class="decimals">{{pa[1]}}</div>
-            </div>
-            <ul class="pricing-features">
-              <li><b>{{sp.features.title}}</b></li>
-              {%- for i in sp.features.list -%}
-              <li>{{i.item}}</li>
-              {%- endfor -%}
-            </ul>
-            {%- if forloop.last -%}
-            <img src="{{sp.image}}" alt="{{sp.title}}">
-            {%- endif -%}
-            <a class="button bottom-20" href="{{sp.features.button.link}}">{{sp.features.button.title}}</a>
-          </div>
-          {%- endfor -%}
-        </div>
-        {%- endfor -%}
-      </div>
-    </div>
   </section>
 </article>
 

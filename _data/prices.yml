@@ -1,6 +1,6 @@
 free:
   title: DIY (Do It YourSelf)
-  descr: The <strong>Do It YourSelf plan is just $ 299 per month</strong>. What’s the catch? If you need Stock or API integrations to your Legacy systems, you will need to solve it with your DEV Team. No support available.
+  descr: The <strong>Do It YourSelf plan is just $ 999 per month</strong>. What’s the catch? If you need Stock or API integrations to your Legacy systems, you will need to solve it with your DEV Team. No support available.
   span: Full Cloud ecommerce Marketplace Solution
   image: '/assets/svg/wordpress-free.svg'
   features:
@@ -34,7 +34,7 @@ premium:
         items:
           - title: Monthly
             descr: Most flexible, not cheapest.
-            price-p: 99.99
+            price-p: 999.00
             price-s: Per month. Billed monthly.
             features:
               title: All Mercado features
@@ -46,7 +46,7 @@ premium:
               after:
                 - title: 1. Available as 
                   link: "#5-sites"
-                  text: 5-sites
+                  text: Multi-Site
                 - title: or 
                   link: "#unlimit"
                   text: unlimit
@@ -63,7 +63,7 @@ premium:
 
           - title: Annually
             descr: Same. But 25% less than monthly.
-            price-p: 7.99
+            price-p: 8990
             price-s: Per month. Billed annually for $647.88.
             features:
               title: All Mercado features
@@ -75,7 +75,7 @@ premium:
               after:
                 - title: 1. Available as 
                   link: "#5-sites"
-                  text: 5-sites
+                  text: Multi-Site
                 - title: or 
                   link: "#unlimit"
                   text: unlimit
@@ -92,7 +92,7 @@ premium:
 
           - title: Lifetime 🚀
             descr: Hands down our best deal. Period.
-            price-p: 269.99
+            price-p: 39990
             price-s: Per month. Billed annually for $647.88.
             image: '/assets/svg/wordpress-free.svg'
             features:
@@ -105,7 +105,7 @@ premium:
               after:
                 - title: 1. Available as 
                   link: "#5-sites"
-                  text: 5-sites
+                  text: Multi-Site
                 - title: or 
                   link: "#unlimit"
                   text: unlimit
