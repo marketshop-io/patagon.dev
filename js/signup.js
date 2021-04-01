@@ -33,6 +33,7 @@ $(document).ready(function() {
           } else {
             $("#status").text("You're subscribed!");
             $("#status").css("color", "green");
+            window.location = "/thanks/"; 
           }
         } else {
           alert("Sorry, unable to subscribe. Please try again later!");
@@ -49,5 +50,6 @@ $(document).ready(function() {
 	$("#submit-btn").click(function(e){
 		e.preventDefault(); 
 		$("#signup-form").submit();
+    window.location.replace("/thanks");
 	});
 });
