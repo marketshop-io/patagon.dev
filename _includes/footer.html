@@ -15,8 +15,11 @@
     </div>
     {%- endfor -%}
   </div>
+  
   <!-- Subscribe form -->
-  {%- include subscribe_form.html -%}
+  {%- if page.subscribe_form != false -%}
+    {%- include subscribe_form.html -%}
+  {%- endif -%}
 
   <!-- Footer socials -->
   <div class="footer_socials">
