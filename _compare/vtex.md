@@ -5,11 +5,11 @@ image: "/assets/images/compare/vtex.png"
 title: "A formidable Vtex alternative with more modern looks."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit Mercado Stack isn't as polished as Vtex yet, but it offers all and more functionalities related
-  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give Mercado Stack a 
+  "We admit MarketShop isn't as polished as Vtex yet, but it offers all and more functionalities related
+  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
   a try and tell us what you think?</b>"
-table_title: Contact Form 7  ⚔️  Mercado Stack
-table_description: A quick comparison between Shopify and Mercado Stack.
+table_title: Contact Form 7  ⚔️  MarketShop
+table_description: A quick comparison between Shopify and MarketShop.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
 table_head2: >
