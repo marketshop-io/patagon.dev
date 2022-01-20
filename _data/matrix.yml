@@ -19,10 +19,4 @@ cta:
 matrix:
   - title: Summary
     table: "01"
-  - title: Basics
-    table: "02"
-  - title: Stack
-    table: "03"
-  - title: Customization
-    table: "04"
 
