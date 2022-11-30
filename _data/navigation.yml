@@ -1,13 +1,7 @@
 items:
   - title: Home
     link: "/"
-  - title: Features
-    link: "/features"
-  - title: Compare
-    link: "/compare"
   - title: Blog
-    link: "/blog"
-  - title: Prices
-    link: "/prices"
-  - title: Contact
+    link: "https://blog.patagon.dev"
+  - title: Contacto
     link: "/contact"
