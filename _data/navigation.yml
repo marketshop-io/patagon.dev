@@ -3,5 +3,7 @@ items:
     link: "/"
   - title: Blog
     link: "https://blog.patagon.dev"
+  - title: Docs
+    link: "https://docs.patagon.dev"
   - title: Contacto
     link: "/contact"
