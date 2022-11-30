@@ -1,64 +1,10 @@
 top: 
-  - title: Mercado
+  - title: Patagon.dev
     items:
-      - name_c: Product
-        link: "#" 
-      - name_c: Features
-        link: "#"
-      - name_c: Pricing
-        link: "#"
-      - name_c: Platforms
-        link: "#"
-      - name_c: Swap Typeform
-        link: "#"
-  - title: Mercado
-    items:
-      - name_c: Product
-        link: "#" 
-      - name_c: Features
-        link: "#"
-      - name_c: Pricing
-        link: "#"
-      - name_c: Platforms
-        link: "#"
-      - name_c: Swap Typeform
-        link: "#"
-  - title: Mercado
-    items:
-      - name_c: Product
-        link: "#" 
-      - name_c: Features
-        link: "#"
-      - name_c: Pricing
-        link: "#"
-      - name_c: Platforms
-        link: "#"
-      - name_c: Swap Typeform
-        link: "#"
-  - title: Mercado
-    items:
-      - name_c: Product
-        link: "#" 
-      - name_c: Features
-        link: "#"
-      - name_c: Pricing
-        link: "#"
-      - name_c: Platforms
-        link: "#"
-      - name_c: Swap Typeform
-        link: "#"
-  - title: Mercado
-    items:
-      - name_c: Product
-        link: "#" 
-      - name_c: Features
-        link: "#"
-      - name_c: Pricing
-        link: "#"
-      - name_c: Platforms
-        link: "#"
-      - name_c: Swap Typeform
-        link: "#"
+      - name_c: Blog
+        link: "blog.patagon.dev" 
+      - name_c: Contáctanos
+        link: "/contact"
 social:
   - icon: "social/ionicons_svg_logo-facebook.svg"
     title: facebook
