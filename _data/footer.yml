@@ -2,7 +2,7 @@ top:
   - title: Patagon.dev
     items:
       - name_c: Blog
-        link: "blog.patagon.dev" 
+        link: "https://blog.patagon.dev" 
       - name_c: Contáctanos
         link: "/contact"
 social:
