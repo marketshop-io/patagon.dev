@@ -1,21 +1,21 @@
 inputs:
   - name: name
-    caption: Name
-    placeholder: Enter your Name
+    caption: Nombre
+    placeholder: Tony Stark
     required: required
     type: text
     order: order-1
   
   - name: email
     caption: Email
-    placeholder: Enter a valid email address
+    placeholder: tony@stark.com
     required: required
     type: email
     order: order-2
 
 textarea:
-  caption: Message
-  placeholder: Enter your message here
+  caption: Mensaje
+  placeholder: Aquí tú mensaje ...
   name: use_case
   rows: 5
 
@@ -25,6 +25,6 @@ check:
   name: agree
 
 button:
-  title: Submit
+  title: Enviar
 
 site_key: 6Ld8JBMaAAAAADhU5YlZ2suQq_5oMImKUp9YPicP
