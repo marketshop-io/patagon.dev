@@ -1,8 +1,8 @@
-action     : "https://ses.mercadoempresas.cl/subscribe"
+action     : "https://sendy.patagon.dev/subscribe"
 method     : post
 placeholder: Type your email for updates
 target     : _blank
 label      : Email address to subscribe
-unsubscribe: "http://your_sendy_installation/unsubscribe"
+unsubscribe: "http://sendy.patagon.dev/unsubscribe"
 api_key    : Rokg2q8PUGi1rTCe2IFe
 list       : 8ALQIt9YQCMtVtUe3Zivvg
