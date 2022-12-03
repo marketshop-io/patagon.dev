@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: nmella/mercadostack
+  repo: marketshop/patagondev
 #  name: git-gateway
   branch: master # 
 media_folder: assets/images/
