@@ -31,10 +31,10 @@ mosaic:
       descr: Let your customers request product returns with automatic Shipment generation.
       image: shipping.svg
   - row:
-    - title: API Integrations
+    - title: Gestión Documental
       link: "#"
       bgcolor:
-      descr: Integrate easily with your Legacy systems.
+      descr: Flujos de aprobación de documentos y firma electrónica.
       image: 6.svg
-    - title: And more...
+    - title: Y más...
       link: "#"
