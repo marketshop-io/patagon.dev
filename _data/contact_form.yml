@@ -1,6 +1,6 @@
 inputs:
   - name: name
-    caption: Nombre
+    caption: Name
     placeholder: Tony Stark
     required: required
     type: text
@@ -14,7 +14,7 @@ inputs:
     order: order-2
 
 textarea:
-  caption: Mensaje
+  caption: Message
   placeholder: Aquí tú mensaje ...
   name: use_case
   rows: 5
@@ -25,6 +25,6 @@ check:
   name: agree
 
 button:
-  title: Enviar
+  title: Submit
 
 site_key: 6LdDjboSAAAAAHmBEgRd0BXjjMIQl-Ci6rkfRf7b

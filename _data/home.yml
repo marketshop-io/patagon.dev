@@ -1,13 +1,13 @@
-mosaic_title: <span>Marketplace eCommerce App.</span>  Top-notch ecommerce platform.
-mosaic_descr: Fully integrated ecommerce platform, with all the <strong>real system requirements</strong> to start a business. <strong>For mid and big size Companies.</strong>
+mosaic_title: <span>Implementamos tus ideas 💡</span>  con aplicaciones modernas 🤖.
+mosaic_descr: Desarrollo de soluciones <strong>integrales</strong> para tu negocio.
 mosaic_link: "#"
-mosaic_text: Take the product tour 
+mosaic_text: Entre otros 🤫 
 mosaic:
   - row:
-    - title: Multi-Vendor
+    - title: Marketplace
       link: "#"
       bgcolor:
-      descr: Native Marketplace Solution. Multi-Seller ready.
+      descr: Soluciones B2B y B2C 100% automatizadas.
       image: vendors3.svg
     - title: Single Sign On (SSO) 
       link: "#"
@@ -31,10 +31,10 @@ mosaic:
       descr: Let your customers request product returns with automatic Shipment generation.
       image: shipping.svg
   - row:
-    - title: API Integrations
+    - title: Gestión Documental
       link: "#"
       bgcolor:
-      descr: Integrate easily with your Legacy systems.
+      descr: Flujos de aprobación de documentos y firma electrónica.
       image: 6.svg
-    - title: And more...
+    - title: Y más...
       link: "#"
