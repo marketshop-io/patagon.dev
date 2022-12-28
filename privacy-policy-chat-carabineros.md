@@ -1,7 +1,7 @@
 ---
 description: "Privacy Policy :: Chat Carabineros"
 layout: post
-title: Privacy Policty
+title: Privacy Policy
 date: 2022-12-28
 comments: true
 ---
@@ -123,6 +123,7 @@ comments: true
 <p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p>
 
 ## Delete Your Personal Data
+
 <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p>
 <p>Our Service may give You the ability to delete certain information about You from within the Service.</p>
 <p>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.</p>
@@ -150,6 +151,7 @@ comments: true
 <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
 
 # Children's Privacy
+
 <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
 <p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
 <h1>Links to Other Websites</h1>
@@ -161,6 +163,7 @@ comments: true
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
 # Contact Us
+
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
 <li>By email: hola@patagon.dev</li>
