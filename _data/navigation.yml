@@ -1,13 +1,13 @@
 items:
-  - title: Home
+  - title: Home🏠
     link: "/"
-  - title: Blog
+  - title: Blog📜
     link: "https://blog.patagon.dev"
-  - title: Docs
+  - title: Docs🧻
     link: "https://docs.patagon.dev"
-  - title: Soporte
+  - title: Soporte🔥🚒
     link: "https://soporte.patagon.dev"
-  - title: Status Apps
+  - title: Status Apps🧐
     link: "https://status.patagon.dev"
-  - title: Contact
+  - title: Contact💌
     link: "/contact"
