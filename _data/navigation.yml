@@ -1,6 +1,8 @@
 items:
   - title: Home🏠
     link: "/"
+  - title: Portfolio💼
+    link: "https://app.patagon.dev"
   - title: Blog📜
     link: "https://blog.patagon.dev"
   - title: Docs🧻
