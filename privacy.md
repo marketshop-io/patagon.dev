@@ -2,12 +2,12 @@
 description: "Patagon Labs Privacy Policy"
 layout: post
 title: Privacy Policy
-date: 2022-12-28
+date: 2023-07-19
 comments: true
 ---
 ## Privacy Policy
 
-<p>Last updated: December 28, 2022</p>
+<p>Last updated: July 19, 2023</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
 <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
@@ -25,7 +25,7 @@ comments: true
 <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
 </li>
 <li>
-<p><strong>Application</strong> refers to Carabineros Chat Interno, the software program provided by the Company.</p>
+<p><strong>Application</strong> refers to applications, the software program provided by the Company.</p>
 </li>
 <li>
 <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Patagon SpA, El Nogal 1518, Santiago.</p>
