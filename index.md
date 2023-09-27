@@ -1,7 +1,7 @@
 ---
-title: Transformación Digital 🚀
+title: Control Técnico de TI 🚀
 description: >
-  <b>Patagon Labs 💡</b> es un empresa de desarrollo proyectos TI sustentada en una red de <b>freelancers</b> y apalancada en soluciones de <b>código libre.</b> 😀
+  <b>Patagon Labs 💡</b> es una empresa de consultoria de Tecnología, enfocada en el <b>control técnico</b> y en la <b>gestión del conocimiento.</b> 😀
 layout: home 
 ---
 
