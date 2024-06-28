@@ -1,7 +1,7 @@
 ---
 title: Consultoría Tech 🧑‍💻
 description: >
-  <b>Patagon Labs 💡</b> es una empresa de consultoria de Tecnología, enfocada en el <b>control técnico</b> y en la <b>gestión del conocimiento.</b> 😀
+  <b>💡 Patagon</b> es una empresa consultora de Tecnología. Colaboramos con nuestros clientes para innovar en el rendimiento y desarrollo de software.</b> 😀
 layout: home 
 ---
 
