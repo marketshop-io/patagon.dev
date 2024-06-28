@@ -1,4 +1,4 @@
-mosaic_title: <span>¿Cómo? 🤔</span> ¿Qué hacemos específicamente? 🧐.
+mosaic_title: <span>¿Cómo? 🤔</span> ¿Qué hacen específicamente? 🧐.
 mosaic_descr: Nuestra <strong>experiencia</strong> y <strong>conocimiento</strong> nos permite actuar como socios, definiendo la estrategia, construyendo las políticas y estándares de desarrollo, midiendo y capacitando a los equipos de desarrollo (internos o externos) con las mejores prácticas de la industria, y habilitando las capacidades de negocio y técnicas necesarias para <strong>acelerar el desarrollo de software</strong>, aportando y transfiriendo valor a los usuarios finales.
 mosaic_link: "#"
 mosaic_text: Entre otros 🤫 
@@ -9,12 +9,12 @@ mosaic:
       bgcolor:
       descr: Soluciones B2B y B2C 100% automatizadas.
       image: vendors3.svg
-    - title: Single Sign On (SSO) 
+    - title: Migración de Oracle a PostgreSQL 🐋 
       link: "#"
       bgcolor:
       descr: Integrated with Keycloak SSO (OpenSource). Have your users authenticated just once !
       image: login.svg
-    - title: Migración a Kubernetes !
+    - title: De máquinas virtuales a Kubernetes 🚀
       link: "https://servicio-migracion-a-kubernetes.patagon.dev/"
       bgcolor:
       descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones migrando a contenedores.
