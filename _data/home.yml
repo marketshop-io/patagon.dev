@@ -1,16 +1,16 @@
 mosaic_title: <span>¿Cómo? 🤔</span> ¿Qué hacen específicamente? 🧐.
 mosaic_descr: Nuestra <strong>experiencia</strong> y <strong>conocimiento</strong> nos permite actuar como socios, definiendo la estrategia, construyendo las políticas y estándares de desarrollo, midiendo y capacitando a los equipos de desarrollo (internos o externos) con las mejores prácticas de la industria, y habilitando las capacidades de negocio y técnicas necesarias para <strong>acelerar el desarrollo de software</strong>, aportando y transfiriendo valor a los usuarios finales.
 mosaic_link: "#"
-mosaic_text: Entre otros 🤫 
+mosaic_text: Otros Servicios 🤫 
 mosaic:
   - row:
-    - title: Marketplace
+    - title: Aceleración del Desarrollo
       link: "#"
       bgcolor:
-      descr: Soluciones B2B y B2C 100% automatizadas.
+      descr: Adquisición de capacidades y buenas prácticas.
       image: vendors3.svg
     - title: Migración de Oracle a PostgreSQL 🐋 
-      link: "#"
+      link: "features"
       bgcolor:
       descr: Integrated with Keycloak SSO (OpenSource). Have your users authenticated just once !
       image: login.svg
@@ -20,12 +20,12 @@ mosaic:
       descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones migrando a contenedores.
       image: support.svg
   - row:
-    - title: Newsletter Ready !
-      link: "#"
+    - title: Gestión de Proyectos 😀!
+      link: "prices"
       bgcolor:
-      descr: Integrated with Amazon SES. Send 1 million emails at no extra cost. 
+      descr: Herramientas, metodología, producto, seguimiento.. 
       image: newsletter.svg
-    - title: Automated RMA Process 
+    - title: Servicios 
       link: "#"
       bgcolor:
       descr: Let your customers request product returns with automatic Shipment generation.
