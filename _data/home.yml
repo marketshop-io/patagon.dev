@@ -14,10 +14,10 @@ mosaic:
       bgcolor:
       descr: Integrated with Keycloak SSO (OpenSource). Have your users authenticated just once !
       image: login.svg
-    - title: HelpDesk Ready !
-      link: "#"
+    - title: Migración a Kubernetes !
+      link: "https://servicio-migracion-a-kubernetes.patagon.dev/"
       bgcolor:
-      descr: Integrated with Zammad OpenSource HelpDesk system. Escalate your support professionally.
+      descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones migrando a contenedores.
       image: support.svg
   - row:
     - title: Newsletter Ready !
