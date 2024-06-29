@@ -21,7 +21,7 @@ section.home_hero {
     background-size: 340px;
     background-position: right 20px bottom;
     .home_intro {
-      width: 98%;
+      width: 100%;
     }
     h1 {
       font-size: 78px;
@@ -38,6 +38,7 @@ section.home_hero {
     & {
       background-size: 360px;
       background-position: right 20px bottom;
+      background: none;
       h1 {
         font-size: 90px;
       }
