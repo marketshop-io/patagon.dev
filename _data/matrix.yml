@@ -2,15 +2,15 @@ feature_image: "/assets/images/matrix.svg"
 tip: Te enseñamos a pescar 🐠
 cards:
   - title: Software Factory
-    text : Empresas de Software Factory
+    text : Empresas de Desarrollo de Software a la medida.
     button: Start building now
     link: "/contact"
-    headline: Desarrollo
+    headline: 
   - title: Patagon Consulting
-    text : Asesoría para un mejor desarrollo de Software
+    text : Asesor y partner para un mejor desarrollo de Software
     button: Start building now
     link: "/contact"
-    headline: Consultor
+    headline: 
 cta:
   - title: Deploy Marketplace Stack
     link: "/contact"
