@@ -1,6 +1,6 @@
 ---
-title: Contact Us
+title: Contacto
 layout : contact
 description: >
-  "Feel free to contact us for whatever reason."
+  "Envíanos un mensaje y te responderemos a la brevedad."
 ---
