@@ -1,6 +1,6 @@
 inputs:
   - name: name
-    caption: Name
+    caption: Nombre
     placeholder: Tony Stark
     required: required
     type: text
@@ -14,7 +14,7 @@ inputs:
     order: order-2
 
 textarea:
-  caption: Message
+  caption: Mensaje
   placeholder: Aquí tú mensaje ...
   name: use_case
   rows: 5
