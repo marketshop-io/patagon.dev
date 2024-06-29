@@ -1,6 +1,6 @@
 ---
-title: Features
+title: Nuestro Servicios
 description: >
-  <b>MarketShop comes in two versions.</b> Both are separate, full-blown MarketShop platforms with practically identical feature sets. For different users.
+  En <b>Patagon</b> nos diferenciamos de una empresa de Software Factory en <strong>muchas</strong> cosas.
 layout: features
 ---
