@@ -4,10 +4,10 @@ mosaic_link: "features"
 mosaic_text: ¿Cómo nos diferenciamos de una empresa de desarrollo de Software ? 
 mosaic:
   - row:
-    - title: Aceleración del Desarrollo
-      link: "#"
+    - title: Aceleración del Desarrollo de Software
+      link: "https://mejorando-el-desarrollo-de-software.patagon.dev/"
       bgcolor:
-      descr: Adquisición de capacidades y buenas prácticas.
+      descr: Adquisición de capacidades y buenas prácticas para un desarrollo más eficiente.
       image: vendors3.svg
     - title: Migración de Oracle a PostgreSQL 🐋 
       link: "features"
