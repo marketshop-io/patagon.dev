@@ -9,8 +9,8 @@ mosaic:
       bgcolor:
       descr: Adquisición de capacidades y buenas prácticas para un desarrollo más eficiente.
       image: vendors3.svg
-    - title: Migración de Oracle a PostgreSQL 🐋 
-      link: "features"
+    - title: Migrando de Oracle a PostgreSQL 🐋 
+      link: "https://migrando-de-oracle-a-postresql.patagon.dev"
       bgcolor:
       descr: Integrated with Keycloak SSO (OpenSource). Have your users authenticated just once !
       image: login.svg
