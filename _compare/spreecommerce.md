@@ -2,14 +2,12 @@
 layout: compare
 name: Spree Commerce
 image: "/assets/images/compare/spree.png"
-title: "Una plataforma flexible y customizable."
-subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
+title: "Spree Commerce, una plataforma flexible y customizable."
+subtitle: "Spree Commerce es una plataforma liviana y básica, ideal para desarrollar sobre ella."
 description: >
-  "We admit MarketShop isn't as polished as Shopify yet, but it offers all and more functionalities related
-  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
-  a try and tell us what you think?</b>"
+  "A diferencia de Magento, Spree Commerce no tiene ni un décimo de sus funcionalidades. Pero <b>eso que parece una debilidad, es en realidad su mayor fortaleza</b>. Al no tener todas las complejidades de miles de reglas y lógicas que tiene Magento, es más fácil y rápido desarrollar en Spree, ideal para realizar soluciones a la medida. <a href="https://blog.patagon.dev/ecommrce-b2b/">Acá </a> hay un buen post al respecto."
 table_title: Magento  ⚔️  Spree Commerce
-table_description: A quick comparison between Shopify and MarketShop.
+table_description: Una rápida comparación entre Magento y Spree Commerce.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
 table_head2: >
