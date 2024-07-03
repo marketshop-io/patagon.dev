@@ -5,7 +5,7 @@ image: "/assets/images/compare/spree.png"
 title: "Spree Commerce, una plataforma flexible y customizable."
 subtitle: "Spree Commerce es una plataforma liviana y básica, ideal para desarrollar sobre ella."
 description: >
-  "A diferencia de Magento, Spree Commerce no tiene ni un décimo de sus funcionalidades. Pero <b>eso que parece una debilidad, es en realidad su mayor fortaleza</b>. Al no tener todas las complejidades de miles de reglas y lógicas que tiene Magento, es más fácil y rápido desarrollar en Spree, ideal para realizar soluciones a la medida. <a href="https://blog.patagon.dev/ecommrce-b2b/">Acá </a> hay un buen post al respecto."
+  "A diferencia de Magento, Spree Commerce no tiene ni un décimo de sus funcionalidades. Pero <b>eso que parece una debilidad, es en realidad su mayor fortaleza</b>. Al no tener todas las complejidades de miles de reglas y lógicas que tiene Magento, es más fácil y rápido desarrollar en Spree, ideal para realizar soluciones a la medida. <a href="https://blog.patagon.dev/ecommrce-b2b/">Acá hay un buen post al respecto.</a>"
 table_title: Magento  ⚔️  Spree Commerce
 table_description: Una rápida comparación entre Magento y Spree Commerce.
 table_head1: >
