@@ -2,14 +2,12 @@
 layout: compare
 name: Plane
 image: "/assets/images/compare/plane.png"
-title: "A formidable Woocommerce alternative and no countless add-ons."
-subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
+title: "Una <b>mejor alternativa</b> que JIRA, Asana o Trello"
+subtitle: "La plataforma de gestión de tareas debe ser amigable y rápida, pero, sobre todo, moderna."
 description: >
-  "We admit MarketShop isn't as polished as WooCommerce yet, but it offers all and more functionalities related
-  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
-  a try and tell us what you think?</b>"
-table_title: Ninja Forms  ⚔️  MarketShop
-table_description: A quick comparison between Shopify and MarketShop.
+  "Plane es una plataforma de gestión de tareas, muy similar a Linear.app. Es 100% libre, y tiene todo lo necesario para una <b>gestión ágil y útil.</b>"
+table_title: JIRA  ⚔️  Plane
+table_description: Una rápida comparación entre JIRA y Plane.so.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
 table_head2: >
