@@ -1,17 +1,15 @@
 items:
   - title: Home🏠
     link: "/"
-  - title: Portfolio💼
+  - title: OpenSource Apps🚀
     link: "https://app.patagon.dev"
   - title: Blog📜
-    link: "https://blog.patagon.dev"
+    link: "https://blog.patagon.dev"  
+  - title: Consultoría👨‍🎓
+    link: "https://patagon.dev/features/"
   - title: Docs🧻
     link: "https://docs.patagon.dev"
-  - title: BI 💣
-    link: "https://bi.patagon.dev"
-  - title: Soporte🔥🚒
+  - title: Soporte🔥
     link: "https://soporte.patagon.dev"
-  - title: Status Apps🧐
-    link: "https://status.patagon.dev"
-  - title: Contact💌
+  - title: Contacto💌
     link: "/contact"
