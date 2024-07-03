@@ -1,17 +1,17 @@
 ---
 layout: compare
-name: JumpSeller
-image: "/assets/images/compare/jumpseller.png"
-title: "A formidable Jump Seller alternative with better looks and brains."
+name: Zammad
+image: "/assets/images/compare/sap.png"
+title: "A formidable SAP Hybris alternative without the annoying paywalls."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit MarketShop isn't as polished as Jump Seller yet, but it offers all and more functionalities related
+  "We admit MarketShop isn't as polished as SAP Hybris yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
   a try and tell us what you think?</b>"
-table_title: Google Forms  ⚔️  MarketShop
+table_title: Typeform  ⚔️  MarketShop
 table_description: A quick comparison between Shopify and MarketShop.
 table_head1: >
-  <img src="/assets/images/compare/jumpseller.png" alt="Logo"><span></span>
+  <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
 table_head2: >
   <img src="/assets/images/logo.png" alt="Logo"><span></span>
 compare_table:

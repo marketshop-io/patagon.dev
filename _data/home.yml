@@ -25,10 +25,10 @@ mosaic:
       bgcolor:
       descr: Herramientas, metodología, producto, seguimiento.. 
       image: newsletter.svg
-    - title: Servicios 
-      link: "#"
+    - title: OpenSource 
+      link: "compare"
       bgcolor:
-      descr: Let your customers request product returns with automatic Shipment generation.
+      descr: Nos apalancamos en soluciones de código libre.
       image: shipping.svg
   - row:
     - title: Gestión Documental

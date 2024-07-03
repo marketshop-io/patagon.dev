@@ -1,6 +1,6 @@
 ---
 layout: compare
-name: Oro Commerce
+name: RocketChat
 image: "/assets/images/compare/oro.png"
 title: "A formidable Oro Commerce alternative, including crucial logic features."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."

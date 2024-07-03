@@ -1,14 +1,14 @@
 ---
 layout: compare
-name: Oracle Commerce
-image: "/assets/images/compare/oracle.png"
-title: A formidable Oracle alternative without its inevitable limitations."
+name: Plain
+image: "/assets/images/compare/woocommerce.png"
+title: "A formidable Woocommerce alternative and no countless add-ons."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
-  "We admit MarketShop isn't as polished as Oracle Commerce yet, but it offers all and more functionalities related
+  "We admit MarketShop isn't as polished as WooCommerce yet, but it offers all and more functionalities related
   to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
   a try and tell us what you think?</b>"
-table_title: Oracle  ⚔️  MarketShop
+table_title: Ninja Forms  ⚔️  MarketShop
 table_description: A quick comparison between Shopify and MarketShop.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>

@@ -1,6 +1,6 @@
 ---
-title: MarketShop v/s
+title: Opensource 👇
 layout : compares
 description: >
-  "We are the new kid on the block, so we understand that <b>a comparison will help you decide</b> if MarketShop is the right fit for you. We’re convinced that we are 😉."
+  "Utilizamos tecnología y soluciones de código libre para evitar la dependencia de terceros 😉."
 ---
