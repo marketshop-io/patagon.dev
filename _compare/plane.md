@@ -1,6 +1,6 @@
 ---
 layout: compare
-name: Plain
+name: Plane
 image: "/assets/images/compare/plane.png"
 title: "A formidable Woocommerce alternative and no countless add-ons."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
