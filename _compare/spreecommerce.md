@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: Spree Commerce
-image: "/assets/images/compare/shopify-bag.png"
+image: "/assets/images/compare/spree.png"
 title: "A formidable Marketplace solution with all the standard functionalities."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >

@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: PostgreSQL
-image: "/assets/images/compare/oracle.png"
+image: "/assets/images/compare/postgresql.png"
 title: A formidable Oracle alternative without its inevitable limitations."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >

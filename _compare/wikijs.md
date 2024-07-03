@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: Wikijs
-image: "/assets/images/compare/vtex.png"
+image: "/assets/images/compare/wikijs.png"
 title: "A formidable Vtex alternative with more modern looks."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >

@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: OnlyOffice
-image: "/assets/images/compare/magento.png"
+image: "/assets/images/compare/onlyoffice.jpg"
 title: "A formidable Magento alternative, including crucial logic features."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >

@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: Grafana
-image: "/assets/images/compare/jumpseller.png"
+image: "/assets/images/compare/grafana.jpg"
 title: "A formidable Jump Seller alternative with better looks and brains."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >

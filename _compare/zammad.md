@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: Zammad
-image: "/assets/images/compare/sap.png"
+image: "/assets/images/compare/zammad.png"
 title: "A formidable SAP Hybris alternative without the annoying paywalls."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
