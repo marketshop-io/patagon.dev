@@ -20,10 +20,10 @@ mosaic:
       descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones migrando a contenedores.
       image: support.svg
   - row:
-    - title: Gestión de Proyectos 😀!
-      link: "prices"
+    - title: Mano de obra Experta 🧑‍💻
+      link: "https://servicio-outstaffing-profesionales-freelance.patagon.dev/"
       bgcolor:
-      descr: Herramientas, metodología, producto, seguimiento.. 
+      descr: Outstaffing, apalancamiento en profesionales freelance. 
       image: newsletter.svg
     - title: OpenSource 
       link: "compare"
