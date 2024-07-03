@@ -2,13 +2,11 @@
 layout: compare
 name: Apache Superset
 image: "/assets/images/compare/apachesuperset.jpg"
-title: "A formidable Wix alternative with everything included out of the box."
-subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
+title: "Reportería y Dashboards de alto impacto."
+subtitle: "Construye los gráficos y reportes a la medida de tu empresa ."
 description: >
-  "We admit MarketShop isn't as polished as Wix yet, but it offers all and more functionalities related
-  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
-  a try and tell us what you think?</b>"
-table_title: SurveyMonkey  ⚔️  MarketShop
+  "Pending"
+table_title: Power BI  ⚔️  SuperSet
 table_description: A quick comparison between Shopify and MarketShop.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>

@@ -2,13 +2,11 @@
 layout: compare
 name: Zammad
 image: "/assets/images/compare/zammad.png"
-title: "A formidable SAP Hybris alternative without the annoying paywalls."
-subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
+title: "Un helpdesk alemán, pensado exclusivamente para soporte de tickets."
+subtitle: "Una alternativa a Zoho, Freshdesk, Zendesk, de mejor nivel."
 description: >
-  "We admit MarketShop isn't as polished as SAP Hybris yet, but it offers all and more functionalities related
-  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
-  a try and tell us what you think?</b>"
-table_title: Typeform  ⚔️  MarketShop
+  "Pending..."
+table_title: Zendesk  ⚔️  Zammad
 table_description: A quick comparison between Shopify and MarketShop.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>

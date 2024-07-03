@@ -2,14 +2,12 @@
 layout: compare
 name: OnlyOffice
 image: "/assets/images/compare/onlyoffice.jpg"
-title: "A formidable Magento alternative, including crucial logic features."
-subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
+title: "Una alternativa increíble a Microsoft Office"
+subtitle: "Cuando pensabas que no había escapatoria a Office365, bienvenido Onlyoffice."
 description: >
-  "We admit MarketShop isn't as polished as Magento yet, but it offers all and more functionalities related
-  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
-  a try and tell us what you think?</b>"
-table_title: Magento  ⚔️  MarketShop
-table_description: A quick comparison between Shopify and MarketShop.
+  "Onlyffice ... "
+table_title: MS Office  ⚔️  OnlyOffice
+table_description: Una rápida comparación entre MS Office y OnlyOffice.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
 table_head2: >

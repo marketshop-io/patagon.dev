@@ -2,13 +2,11 @@
 layout: compare
 name: PostgreSQL
 image: "/assets/images/compare/postgresql.png"
-title: A formidable Oracle alternative without its inevitable limitations."
-subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
+title: ¿Se terminó la luna de miel con Oracle?"
+subtitle: "PostreSQL tiene el 95% de las funcionalidades de Oracle. Y es <b>gratis</b>."
 description: >
-  "We admit MarketShop isn't as polished as Oracle Commerce yet, but it offers all and more functionalities related
-  to Marketplace solutions. Plus, it integrates with several OpenSource services.  <b>Why don’t you give MarketShop a 
-  a try and tell us what you think?</b>"
-table_title: Oracle  ⚔️  MarketShop
+  "PostgreSQL es la solución recomendada para reemplazar una base de datos Oracle"
+table_title: Oracle  ⚔️  PostgreSQL
 table_description: A quick comparison between Shopify and MarketShop.
 table_head1: >
   <img src="/assets/images/shopify1.png" alt="Logo"><span></span>
