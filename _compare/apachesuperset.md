@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: Apache Superset
-image: "/assets/images/compare/apachesuperset.png"
+image: "/assets/images/compare/apachesuperset.jpg"
 title: "A formidable Wix alternative with everything included out of the box."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >

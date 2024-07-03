@@ -1,7 +1,7 @@
 ---
 layout: compare
 name: Sharetribe
-image: "/assets/images/compare/sharetribe.png"
+image: "/assets/images/compare/sharetribe.jpg"
 title: "A formidable Shuup alternative without the inescapable paywalls."
 subtitle: "Build your own Marketplace, with all the missing pieces our competitors don't have 😃 ."
 description: >
