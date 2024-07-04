@@ -1,11 +1,11 @@
 ---
 layout: compare
 name: Plane
-image: "/assets/images/compare/plane.png"
-title: "Una <b>mejor alternativa</b> que JIRA, Asana o Trello"
+image: "/assets/images/compare/plane.jpg"
+title: "Plane, una mejor alternativa que JIRA, Asana o Trello"
 subtitle: "La plataforma de gestión de tareas debe ser amigable y rápida, pero, sobre todo, moderna."
 description: >
-  "Plane es una plataforma de gestión de tareas, muy similar a Linear.app. Es 100% libre, y tiene todo lo necesario para una <b>gestión ágil y útil.</b>"
+  Plane es una plataforma de gestión de tareas, muy similar a Linear.app. Es 100% libre, y tiene todo lo necesario para una <b>gestión ágil y útil.</b><br><br>.👉 <a href="https://proyectos.patagon.dev/">Prueba una Demo de la plataforma Plane acá</a>.
 table_title: JIRA  ⚔️  Plane
 table_description: Una rápida comparación entre JIRA y Plane.so.
 table_head1: >
@@ -13,11 +13,11 @@ table_head1: >
 table_head2: >
   <img src="/assets/images/logo.png" alt="Logo"><span></span>
 compare_table:
-  - title: Native Marketplace solution
-    val1: "No"
-    class1: radio rounded rubin
-    val2: "Yes"
-    class2: radio rounded azure icon-azure-inverted
+  - title: Precio p/u
+    val1: "15 USD"
+    class1:
+    val2: "Gratis"
+    class2: 
   - title: Single Sign On System
     val1: "❌ No (+MailChimp)"
     class1: azure icon-azure rubin

@@ -31,10 +31,10 @@ mosaic:
       descr: Nos apalancamos en soluciones de código libre.
       image: shipping.svg
   - row:
-    - title: Gestión Documental
+    - title: Gestión del Conocimiento
       link: "#"
       bgcolor:
-      descr: Flujos de aprobación de documentos y firma electrónica.
+      descr: Minimiza la dependencia de terceros.
       image: 6.svg
     - title: Y más...
-      link: "#"
+      link: "https://blog.patagon.dev"
