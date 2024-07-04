@@ -9,9 +9,9 @@ description: >
 table_title: JIRA  ⚔️  Plane
 table_description: Una rápida comparación entre JIRA y Plane.so.
 table_head1: >
-  <img src="/assets/images/compare/jira.jpg" alt="Logo"><span></span>
+  <img src="/assets/images/compare/jira2.png" alt="Logo"><span></span>
 table_head2: >
-  <img src="/assets/images/compare/plane2.jpg" alt="Logo"><span></span>
+  <img src="/assets/images/compare/plane3.png" alt="Logo"><span></span>
 compare_table:
   - title: <b>Precio p/u</b>
     val1: "15 USD"
@@ -28,23 +28,13 @@ compare_table:
     class1:
     val2: "Sí"
     class2: 
-  - title: Newsletter System
-    val1: "Only 3 max"
-    class1: arrow-down rounded rubin
-    val2: "<b>Unlimited</b>"
-    class2: arrow-up rounded green icon-green-inverted
-  - title: Number of questions per form
-    val1: "Only 10 max"
-    class1: arrow-down rounded rubin
-    val2: "<b>Unlimited</b>"
-    class2: arrow-up rounded green icon-green-inverted
-  - title: Number of questions per formaaaa
-    val1: "Only 10 max"
-    class1: arrow-down rounded rubin
-    val2: "<b>Unlimited</b>"
-    class2: arrow-up rounded green icon-green-inverted
+  - title: <b>Integración con Github</b>
+    val1: "Sí"
+    class1: 
+    val2: "Sí"
+    class2: 
 links:
-  - title: Revisa nuestro demo
+  - title: Evalúa Plane en nuestro Demo
     link: "https://proyectos.patagon.dev/"
   - title: Github
     link: "https://github.com/makeplane/plane"
