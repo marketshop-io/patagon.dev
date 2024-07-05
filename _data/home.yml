@@ -31,10 +31,10 @@ mosaic:
       descr: Nos apalancamos en soluciones de código libre.
       image: shipping.svg
   - row:
-    - title: Gestión del Conocimiento
-      link: "#"
+    - title: Consultoría informática
+      link: "https://consultoria-informatica.patagon.dev/"
       bgcolor:
-      descr: Minimiza la dependencia de terceros.
+      descr: Te ayudamos en tus desafíos de tecnología.
       image: 6.svg
     - title: Y más...
       link: "https://blog.patagon.dev"
