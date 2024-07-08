@@ -2,5 +2,5 @@
 title: Contacto
 layout : contact
 description: >
-  "Envíanos un mensaje y te responderemos a la brevedad."
+  "Cuéntanos de tús desafíos y conversemos. Te invitamos un ☕"
 ---
