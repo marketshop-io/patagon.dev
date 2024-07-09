@@ -12,12 +12,12 @@ mosaic:
     - title: Migrando de Oracle a PostgreSQL 🐋 
       link: "https://migrando-de-oracle-a-postresql.patagon.dev"
       bgcolor:
-      descr: Integrated with Keycloak SSO (OpenSource). Have your users authenticated just once !
+      descr: Hoy es factible salir de Oracle de forma simple y segura.
       image: login.svg
     - title: De máquinas virtuales a Kubernetes 🚀
       link: "https://servicio-migracion-a-kubernetes.patagon.dev/"
       bgcolor:
-      descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones migrando a contenedores.
+      descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones.
       image: support.svg
   - row:
     - title: OutStaffing 🧑‍💻
