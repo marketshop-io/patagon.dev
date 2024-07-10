@@ -3,7 +3,7 @@ logo: /assets/images/logo.png
 email: hola@patagon.dev
 motto: Patagon projects rocks 🎸!
 description: >- # this means to ignore newlines until "baseurl:"
-  Ayudamos a nuestros clientes a capturar todo el valor de sus inversiones en tecnología, promoviendo y capacitando las mejores prácticas de la industria que revolucionarán su forma de trabajar
+  <b>Ayudamos a nuestros clientes</b> a capturar todo el valor de sus inversiones en tecnología, promoviendo y capacitando las mejores prácticas de la industria que revolucionarán su forma de trabajar
 baseurl: ""
 url: ""
 collections:
