@@ -1,8 +1,8 @@
-action     : "https://sendy.patagon.dev/subscribe"
+action     : "https://ses.patagon.dev/subscribe"
 method     : post
 placeholder: Type your email for updates
 target     : _blank
 label      : Email address to subscribe
-unsubscribe: "http://sendy.patagon.dev/unsubscribe"
+unsubscribe: "http://ses.patagon.dev/unsubscribe"
 api_key    : Rokg2q8PUGi1rTCe2IFe
 list       : 8ALQIt9YQCMtVtUe3Zivvg
