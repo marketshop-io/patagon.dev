@@ -2,5 +2,5 @@
 title: Contacto
 layout : contact
 description: >
-  "Cuéntanos de tús desafíos y conversemos. Te invitamos un ☕"
+  "Cuéntanos tus desafíos y conversemos. Te invitamos un ☕"
 ---
