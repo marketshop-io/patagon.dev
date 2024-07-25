@@ -5,9 +5,9 @@ items:
     link: "https://blog.patagon.dev"  
   - title: Consultoría👨‍🎓
     link: "https://patagon.dev/features/"
-  - title: Docs🧻
-    link: "https://docs.patagon.dev"
   - title: Soporte🔥
-    link: "https://soporte.patagon.dev"
+    link: "https://soporte.patagon.dev"  
+  - title: Libro📕
+    link: "https://www.amazon.com/dp/B0CXMR7W4P"
   - title: Contacto💌
     link: "/contact"
