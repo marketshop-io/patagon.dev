@@ -1,6 +1,6 @@
 ---
-title: Descarga el libro 🧑‍💻
+title: Descarga el ebook 🧑‍💻
 description: >
-  <strong>Patagon</strong> hola.</b>
+  <strong>Patagon</strong> </b>
 layout: book_suscription 
 ---
