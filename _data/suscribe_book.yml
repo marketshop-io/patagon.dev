@@ -1,6 +1,6 @@
 action     : "https://ses.patagon.dev/subscribe"
 method     : post
-placeholder: Ingresa tu email para recibir el libro
+placeholder: Ingresa tu email para recibir el ebook.
 target     : _blank
 label      : Email address to subscribe
 unsubscribe: "http://ses.patagon.dev/unsubscribe"
