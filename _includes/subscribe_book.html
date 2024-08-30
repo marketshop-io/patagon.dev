@@ -1,0 +1,15 @@
+{%- assign s = site.data.suscribe_book -%}
+<div class="subscribe">
+  <form target={{s.target}} id="signup-form"
+  action="https://ses.patagon.dev/subscribe"
+  enctype="application/x-www-form-urlencoded" 
+  data-api_key="{{s.api_key}}"
+  data-list="{{s.list}}"
+  method="{{s.method}}" class="form-inline">
+    <input type="email" name="email" class="form_input" id="EMAIL" placeholder="{{s.placeholder}}">
+    <input type="submit" class="button button_wide" value="Submit" id="submit-btn">
+  </form>
+  <span>Unsubscribe <a href="{{s.unsubscribe}}">here</a>.</span>
+</div>
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/signup.js"></script>
