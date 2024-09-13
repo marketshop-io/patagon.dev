@@ -5,23 +5,23 @@ mosaic_text: Revisa nuestro Blog para conocer más de nuestros proyectos.
 mosaic:
   - row:
     - title: Aceleración del Desarrollo de Software
-      link: "https://mejorando-el-desarrollo-de-software.patagon.dev/"
+      link: "https://patagon.dev/landing-capabilities-for-software-acceleration/"
       bgcolor:
       descr: Adquisición de capacidades y buenas prácticas para un desarrollo más eficiente.
       image: vendors3.svg
     - title: Migrando de Oracle a PostgreSQL 🐋 
-      link: "https://migrando-de-oracle-a-postresql.patagon.dev"
+      link: "https://patagon.dev/landing-migrate-from-oracle-to-postgresql/"
       bgcolor:
       descr: Hoy es factible salir de Oracle de forma simple y segura.
       image: login.svg
     - title: De máquinas virtuales a Kubernetes 🚀
-      link: "https://servicio-migracion-a-kubernetes.patagon.dev/"
+      link: "https://patagon.dev/landing-migration-to-kubernetes/"
       bgcolor:
       descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones.
       image: support.svg
   - row:
     - title: OutStaffing 🧑‍💻
-      link: "https://servicio-outstaffing-profesionales-freelance.patagon.dev/"
+      link: "https://patagon.dev/landing-outstaffing-desarrollo-freelance/"
       bgcolor:
       descr: Outstaffing, apalancamiento en profesionales freelance. 
       image: newsletter.svg
@@ -32,7 +32,7 @@ mosaic:
       image: shipping.svg
   - row:
     - title: Consultoría informática
-      link: "https://consultoria-informatica.patagon.dev/"
+      link: "https://patagon.dev/landing-consultoria-informatica/"
       bgcolor:
       descr: Te ayudamos en tus desafíos de tecnología.
       image: 6.svg
