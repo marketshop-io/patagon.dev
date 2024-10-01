@@ -1,8 +1,8 @@
 top: 
-  - title: Patagon.dev
+  - title: Patagon Consulting
     items:
       - name_c: Blog
-        link: "https://blog.patagon.dev" 
+        link: "https://blog.patagon.consulting" 
       - name_c: Contáctanos
         link: "/contact"
 social:
