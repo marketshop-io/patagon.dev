@@ -1,27 +1,27 @@
 mosaic_title: <span>¿Cómo? 🤔</span> ¿Qué hacemos? 🧐.
 mosaic_descr: Nuestra <strong>experiencia</strong> y <strong>conocimiento</strong> nos permite actuar como socios, <b>definiendo la estrategia</b>, construyendo las políticas y estándares de desarrollo, midiendo y capacitando a los equipos de desarrollo (internos o externos) con las mejores prácticas de la industria, y <b>habilitando las capacidades de negocio y técnicas</b> necesarias para <strong>acelerar el desarrollo de software</strong>, aportando y transfiriendo valor a los usuarios finales.
-mosaic_link: "https://blog.patagon.dev"
+mosaic_link: "https://blog.patagon.consulting"
 mosaic_text: Revisa nuestro Blog para conocer más de nuestros proyectos. 
 mosaic:
   - row:
     - title: Aceleración del Desarrollo de Software
-      link: "https://patagon.dev/landing-capabilities-for-software-acceleration/"
+      link: "https://patagon.consulting/landing-capabilities-for-software-acceleration/"
       bgcolor:
       descr: Adquisición de capacidades y buenas prácticas para un desarrollo más eficiente.
       image: vendors3.svg
     - title: Migrando de Oracle a PostgreSQL 🐋 
-      link: "https://patagon.dev/landing-migrate-from-oracle-to-postgresql/"
+      link: "https://patagon.consulting/landing-migrate-from-oracle-to-postgresql/"
       bgcolor:
       descr: Hoy es factible salir de Oracle de forma simple y segura.
       image: login.svg
     - title: De máquinas virtuales a Kubernetes 🚀
-      link: "https://patagon.dev/landing-migration-to-kubernetes/"
+      link: "https://patagon.consulting/landing-migration-to-kubernetes/"
       bgcolor:
       descr: Disminuye los costos y aumenta la confiabilidad de tus aplicaciones.
       image: support.svg
   - row:
     - title: OutStaffing 🧑‍💻
-      link: "https://patagon.dev/landing-outstaffing-desarrollo-freelance/"
+      link: "https://patagon.consulting/landing-outstaffing-desarrollo-freelance/"
       bgcolor:
       descr: Outstaffing, apalancamiento en profesionales freelance. 
       image: newsletter.svg
@@ -32,9 +32,9 @@ mosaic:
       image: shipping.svg
   - row:
     - title: Consultoría informática
-      link: "https://patagon.dev/landing-consultoria-informatica/"
+      link: "https://patagon.consulting/landing-consultoria-informatica/"
       bgcolor:
       descr: Te ayudamos en tus desafíos de tecnología.
       image: 6.svg
     - title: Y más...
-      link: "https://blog.patagon.dev"
+      link: "https://blog.patagon.consulting"
